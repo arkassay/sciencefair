@@ -280,6 +280,9 @@ a {
   .inspiration h3{
     margin-top: 20px;
   }
+  .inspiration h4{
+    color: #ed1c27;
+  }
   .inspiration a {
     color: #626a72;
     border-bottom-color: #939fab; }
