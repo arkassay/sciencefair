@@ -115,85 +115,6 @@
     }).bind('load', scrollToClosestPanel);
   });
 
-  /* Docs nav highlighting */
-  $(function() {
-    $('.doc-section')
-      .waypoint(function(direction) {
-        var $links = $('a[href="#' + this.id + '"]');
-        $links.toggleClass('active', direction === 'down');
-      }, {
-        context: '#docs',
-        offset: '100%'
-      })
-      .waypoint(function(direction) {
-        var $links = $('a[href="#' + this.id + '"]');
-        $links.toggleClass('active', direction === 'up');
-      }, {
-        context: '#docs',
-        offset: function() {
-          return -$(this).height();
-        }
-      });
-  });
-
-  /* Get Started section notification examples */
-  $(function() {
-    var notify = function(message) {
-      var $message = $('<p style="display:none;">' + message + '</p>');
-
-      $('.notifications').append($message);
-      $message.slideDown(300, function() {
-        window.setTimeout(function() {
-          $message.slideUp(300, function() {
-            $message.remove();
-          });
-        }, 2000);
-      });
-    };
-
-    $('#example-basic').waypoint(function() {
-     notify('Basic example callback triggered.');
-    }, { context: '.panel' });
-
-    $('#example-direction').waypoint(function(direction) {
-      notify('Direction example triggered scrolling ' + direction);
-    }, { context: '.panel' });
-
-    $('#example-offset-pixels').waypoint(function() {
-      notify('100 pixels from the top');
-    }, {
-      offset: 100,
-      context: '.panel'
-    });
-
-    $('#example-offset-percent').waypoint(function() {
-      notify('25% from the top');
-    }, {
-      offset: '25%',
-      context: '.panel'
-    });
-
-    $('#example-offset-function').waypoint(function() {
-      notify('Element bottom hit window top');
-    }, {
-      offset: function() {
-        return -$(this).height();
-      },
-      context: '.panel'
-    });
-
-    $('#example-context').waypoint(function() {
-      notify('Hit top of context');
-    }, { context: '.example-scroll-div' });
-
-    $('#example-handler').waypoint({
-      handler: function() {
-        notify('Handler option used');
-      },
-      offset: '50%',
-      context: '.panel'
-    });
-  });
 
   /* Centering for About and Shortcut panels */
   $(function() {
@@ -215,6 +136,37 @@
     center();
     $window.load(center).resize(center);
   });
+
+  /*SCIENCE FAIR CODE ADDED*/
+  $(function() {
+    $('.toggle-links a').click(function(e) {
+      e.preventDefault();
+      var toggleArea = $(this).attr('class');
+      $(this).closest('li').addClass('active');
+
+      //check if the toggle area is already active
+      if (!$('.toggle#' + toggleArea ).hasClass('active')) {
+        var activeAreas = $('.toggle.active').length;
+        //check if there exist any active toggle areas
+        if (activeAreas > 0) {
+          $('.toggle-links li.active').removeClass('active');
+          $('.toggle-links a.' + toggleArea).closest('li').addClass('active');
+          $('.toggle.active').removeClass('active').fadeOut(700, function() {
+            $('.toggle#' + toggleArea ).addClass('active').fadeIn();
+          });
+        } else{
+          $('.toggle#' + toggleArea ).addClass('active').fadeIn();
+          $('.toggle-links a.' + toggleArea).closest('li').addClass('active');
+        }
+      } else {
+        //DO NOTHING OR UNCOMMENT BELOW CODE TO FADE OUT ACTIVE AREA
+        //$('.toggle-links li.active').removeClass('active');
+        //$('.toggle#' + toggleArea ).removeClass('active').fadeOut(700);
+      };
+            
+    });
+  });
+
 })();
 
 

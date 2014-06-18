@@ -284,10 +284,11 @@ a {
     color: #ed1c27;
   }
   .inspiration a {
-    color: #626a72;
-    border-bottom-color: #939fab; }
+    color: #000;
+    text-decoration: none;
+     }
     .inspiration a:hover {
-      color: #444a50;
+      color: #ed1c27;
       border-bottom-color: #626a72; }
   .inspiration p > code {
     padding: 0 2px;
@@ -298,6 +299,32 @@ a {
     position:relative;
     top: 60px;
     }
+  .inspiration .toggle{
+    display:none;
+  }
+  .inspiration .toggle#leap{
+    display:block;
+  }
+  ul.toggle-links {
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ed1c27;
+  }
+  .inspiration ul.toggle-links li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-lefT: 0;
+  }
+  .inspiration li.active a{
+    color: #ed1c27;
+  }
+  .inspiration ul.toggle-links li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+  }
 .half{
   width: 45%;
   float:left;

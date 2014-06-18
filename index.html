@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>DigitasLBi NY Science Fair 2014</title>
-    <meta name="viewport" content="width=640">
+    <meta name="viewport" content="width=800">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -58,31 +58,38 @@
     <div id="inspiration" class="panel inspiration">
       <div class="inner">
           <h3>Possible Topics</h3>
-          <div class="grouping">
-            <h4>Leap Motion:</h4>
-            <p><a href="https://www.youtube.com/watch?v=czq3S13tGVk" target="_blank">Philips Hue with Leap Motion gesture control</a></p>
+          <ul class="toggle-links">  
+            <li class="active"><a href="#" class="leap">Leap Motion</a></li>
+            <li><a href="#" class="connected-home">Connected Home</a></li>
+            <li><a href="#" class="oculus">Oculus Rift</a></li>
+            <li><a href="#" class="ibeacon">iBeacon</a></li>
+            <li><a href="#" class="wearables">Wearables</a></li>
+          </ul>
+
+          <div class="grouping toggle active" id="leap">
+            <p>&gt;&nbsp;<a href="https://www.youtube.com/watch?v=czq3S13tGVk" target="_blank">Philips Hue with Leap Motion gesture control</a></p>
             <iframe width="560" height="315" src="http://www.youtube.com/embed/czq3S13tGVk" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="grouping">
-            <h4>Connected Home:</h4>
-            <p><a href="https://www.youtube.com/watch?v=1j5s-DhXyyI" target="_blank">Hue Desk</a></p>
+          <div class="grouping toggle" id="connected-home">
+            <p>&gt;&nbsp;<a href="https://www.youtube.com/watch?v=1j5s-DhXyyI" target="_blank">Hue Desk</a></p>
             <iframe width="560" height="315" src="http://www.youtube.com/embed/1j5s-DhXyyI" frameborder="0" allowfullscreen></iframe>
-            <p><a href="https://www.youtube.com/watch?v=sfFgrwYxKcc" target="_blank">Voice Controlled Lighting</a></p>
+            <p>&gt;&nbsp;<a href="https://www.youtube.com/watch?v=sfFgrwYxKcc" target="_blank">Voice Controlled Lighting</a></p>
             <iframe width="560" height="315" src="http://www.youtube.com/embed/sfFgrwYxKcc" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="grouping">
-            <h4>Oculus:</h4>
-            <p><a href="https://www.youtube.com/watch?v=vhDAjDL-Dqw" target="_blank">Hoverboard with Oculus & Wii Board</a></p>
+          <div class="grouping toggle" id="oculus">
+            <p>&gt;&nbsp;<a href="https://www.youtube.com/watch?v=vhDAjDL-Dqw" target="_blank">Hoverboard with Oculus & Wii Board</a></p>
             <iframe width="560" height="315" src="http://www.youtube.com/embed/vhDAjDL-Dqw" frameborder="0" allowfullscreen></iframe>
-            <p><a href="https://www.youtube.com/watch?v=936QZagk-3o" target="_blank">Bird In Flight</a></p>
+            <p>&gt;&nbsp;<a href="https://www.youtube.com/watch?v=936QZagk-3o" target="_blank">Bird In Flight</a></p>
             <iframe width="560" height="315" src="http://www.youtube.com/embed/936QZagk-3o" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="grouping">
-            <h4>iBeacon:</h4>
-            <p><a href="http://vimeo.com/77988223" target="_blank">Numerous applications of iBeacons</a></p>
+          <div class="grouping toggle" id="ibeacon">
+            <p>&gt;&nbsp;<a href="http://vimeo.com/77988223" target="_blank">Numerous applications of iBeacons</a></p>
             <iframe src="http://player.vimeo.com/video/77988223" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-            <p><a href="http://on.aol.com/video/mlb-tests-apples-ibeacon-at-citi-field-517949595" target="_blank">iBeacon at CitiField</a></p>
+            <p>&gt;&nbsp;<a href="http://on.aol.com/video/mlb-tests-apples-ibeacon-at-citi-field-517949595" target="_blank">iBeacon at CitiField</a></p>
           </div>
+          <div class="grouping toggle" id="wearables">
+          </div>
+
 
       </div>
     </div>
