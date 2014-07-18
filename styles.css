@@ -374,7 +374,9 @@ a {
     padding: 0 120px 0 10px;
     margin: 0 auto;
     position: relative; }
- 
+.next-steps h3{
+  color: #ed1c27;
+} 
 .footer {
   position: fixed;
   z-index: 7;
