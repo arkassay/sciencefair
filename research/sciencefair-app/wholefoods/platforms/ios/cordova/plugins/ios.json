@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"LocationManager\"><param name=\"ios-package\" value=\"CDVLocationManager\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.ibeacon": {
+            "PACKAGE_NAME": "com.wholefoods.ibeacon"
+        }
+    },
+    "dependent_plugins": {}
+}
