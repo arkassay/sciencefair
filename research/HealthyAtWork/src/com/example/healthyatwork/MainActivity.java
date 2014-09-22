@@ -12,4 +12,10 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+
+    /** Called when the user clicks the Send button */
+    public void sendMessage(View view)
+    {
+
+    }
 }
