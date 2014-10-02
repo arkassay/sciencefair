@@ -17,28 +17,74 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<html>
+<html ng-app="healthyApp">
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/mainMenu.css" />
+        <link rel="stylesheet" type="text/css" href="css/homeScreen.css" />
+
         <meta name="msapplication-tap-highlight" content="no" />
-        <title>Hello World</title>
+        <title>Healthy At Work</title>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/controllers.js"></script>
     </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+    <body ng-controller="healthHubCtrl">
+      <div class="top-bar"></div>
+
+      <div class="fixed-content-area">
+        <header>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-4">
+                <a href="#menu" ng-click="menuClick()" class="icn-menu"></a>
+              </div>
+              <div class="col-xs-4">
+                <img src="img/logo_digitaslbi.svg" alt="digitasLogo" class="logo" />
+              </div>
+              <div class="col-xs-4">
+                <a href="#track" ng-click="trackClick()" class="icn-track"></a>
+              </div>
             </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+          </div>
+        </header>
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="avatar-area">
+                  <img class="avatar-image" src="img/avatar.png" />
+                  <p class="user-name">Amanda</p>
+                </div>
+                <ul class="home-screen-options">
+                  <li ng-repeat="healthInit in healthInitiatives">
+                    {{healthInit.name}}
+                    <span class="total">{{healthInit.total}}</span>
+                  </li>
+                </ul>
+              </div><!--/.col-xs-12-->
+            </div><!--/.row-->
+          </div><!--/.container-fluid-->
+        </div><!--/.content-->
+      </div><!--/.fixed-content-area-->
+
+      <div class="main-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#leaderboard">Leaderboard</a></li>
+          <li><a href="#lifetime">Lifetime</a></li>
+          <li><a href="#goals">Goals</a></li>
+        </ul>
+      </div>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+      <script type="text/javascript">
+        app.initialize();
+      </script>
     </body>
 </html>
