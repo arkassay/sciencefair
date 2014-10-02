@@ -35,7 +35,17 @@
 /Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/img \
 /Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/index.html \
 /Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/js \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/partials \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/css/bootstrap.min.css \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/css/homeScreen.css \
 /Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/css/index.css \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/css/mainMenu.css \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/img/avatar.jpeg \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/img/avatar.png \
 /Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/img/logo.png \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/img/logo_digitaslbi.svg \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/js/angular.min.js \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/js/controllers.js \
 /Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/js/index.js \
+/Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/assets/www/partials/drink.html \
 /Users/testdev1/Desktop/sciencefair/research/healthywork/platforms/android/ant-build/AndroidManifest.xml \
