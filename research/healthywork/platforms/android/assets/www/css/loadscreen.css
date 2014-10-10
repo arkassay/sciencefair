@@ -1,0 +1,34 @@
+.loadscreen{
+  position:fixed;
+  top: 20px;
+  right: 0;
+  width: 100%;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  z-index: 1;
+  height: 100%;
+  background: #333;
+  overflow:scroll;
+  padding-bottom: 20px;
+  z-index: 100;
+}
+.loadscreen.out{
+  opacity: 0;
+}
+.loadscreen .image-wrap{
+  text-align: center;
+  position:relative;
+  top: 25%;
+  width: 100%;
+}
+.loadscreen .image-wrap img{
+  width: 130px;
+}
+.loadscreen .logo{
+  position:absolute;
+  bottom: 30%;
+}
+.loadscreen .logo img{
+  width: 70%;
+  margin-left: 15%;
+}
