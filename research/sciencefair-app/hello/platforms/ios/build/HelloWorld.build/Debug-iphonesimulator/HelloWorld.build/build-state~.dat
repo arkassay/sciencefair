@@ -1,0 +1,816 @@
+THelloWorld
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+cCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+cCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+cCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+cCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+cCopyStringsFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.xib
+cCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+cCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+cCopyStringsFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+cCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+cCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+cCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+cCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+cCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+cProcessPCH /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+cGenerateDSYMFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+cTouch /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000527843C500000000000003B5
+t1383613381
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000527843D100000000000001A0
+t1383613393
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000527843D40000000000059350
+t1383613396
+s365392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000527843D50000000000445870
+t1383613397
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000527843D500000000000EC820
+t1383613397
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000527843DA00000000001BA530
+t1383613402
+s1811760
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m
+c0000000053C93CB5000000000000176F
+t1405697205
+s5999
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m
+c0000000053C93CB5000000000000126B
+t1405697205
+s4715
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.xib
+c0000000053C93CB50000000000001759
+t1405697205
+s5977
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Info.plist
+c0000000053CD49F00000000000000A0F
+t1405962736
+s2575
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+c0000000053C93CB500000000000003C5
+t1405697205
+s965
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings
+c0000000053C93CB500000000000004C0
+t1405697205
+s1216
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings
+c0000000053C93CB500000000000004AB
+t1405697205
+s1195
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-40.png
+c0000000053C93CB50000000000000FF2
+t1405697205
+s4082
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png
+c0000000053C93CB50000000000001CF3
+t1405697205
+s7411
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-50.png
+c0000000053C93CB5000000000000130A
+t1405697205
+s4874
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png
+c0000000053C93CB5000000000000258B
+t1405697205
+s9611
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-60.png
+c0000000053C93CB500000000000016B3
+t1405697205
+s5811
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png
+c0000000053C93CB50000000000002E94
+t1405697205
+s11924
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-72.png
+c0000000053C93CB50000000000001350
+t1405697205
+s4944
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png
+c0000000053C93CB50000000000002DBA
+t1405697205
+s11706
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-76.png
+c0000000053C93CB50000000000001B71
+t1405697205
+s7025
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png
+c0000000053C93CB50000000000003B9E
+t1405697205
+s15262
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-small.png
+c0000000053C93CB50000000000000CDE
+t1405697205
+s3294
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png
+c0000000053C93CB500000000000015E8
+t1405697205
+s5608
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon.png
+c0000000053C93CB50000000000000F3E
+t1405697205
+s3902
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon@2x.png
+c0000000053C93CB50000000000001EBD
+t1405697205
+s7869
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png
+c0000000053C93CB500000000000085B1
+t1405697205
+s34225
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053C93CB50000000000033D0A
+t1405697205
+s212234
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png
+c0000000053C93CB500000000000166A2
+t1405697205
+s91810
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053C93CB50000000000033F7C
+t1405697205
+s212860
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png
+c0000000053C93CB50000000000016641
+t1405697205
+s91713
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png
+c0000000053C93CB50000000000007323
+t1405697205
+s29475
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png
+c0000000053C93CB5000000000000289A
+t1405697205
+s10394
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m
+c0000000053C93CB5000000000000045C
+t1405697205
+s1116
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+t1405962753
+s81188
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+c0000000053CD49F7000000000000022B
+t1405962743
+s555
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+t1405962753
+s54608
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+t1405962753
+s3200
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+c0000000053CD49F7000000000000002D
+t1405962743
+s45
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app
+t1405962754
+s1020
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app.dSYM
+t2
+s0
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+t1405962744
+s34225
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+t1405962743
+s212234
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+t1405962743
+s91810
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+t1405962744
+s212860
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+t1405962744
+s91713
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png
+t1405962744
+s29475
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png
+t1405962744
+s10394
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+t1405962754
+s278312
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+t1405962743
+s1283
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib
+t1405962753
+s836
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/PkgInfo
+t2
+s0
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+t1405962743
+s280
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+t1405962743
+s166
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-40.png
+t1405962743
+s4082
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png
+t1405962743
+s7411
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-50.png
+t1405962743
+s4874
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png
+t1405962744
+s9611
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-60.png
+t1405962744
+s5811
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png
+t1405962743
+s11924
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-72.png
+t1405962743
+s4944
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png
+t1405962744
+s11706
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-76.png
+t1405962743
+s7025
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png
+t1405962744
+s15262
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-small.png
+t1405962743
+s3294
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png
+t1405962743
+s5608
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon.png
+t1405962743
+s3902
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png
+t1405962743
+s7869
+
+N/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/libCordova.a
+c0000000053CD49F700000000000DB530
+t1405962743
+s898352
+
+N/var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.pch
+t1405962753
+s5346288
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese0f2a477817db941^8eafa577817db941^---0#1#1#--18"Check dependencies36"6D32D5D0-9F3D-4834-8950-380D2A8A5E98-
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427655553.617847
+e427655553.718628
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m221"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd0619e81817db941^66f8b781817db941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m0000000000000000^4651"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/usr/local/lib/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/UninstalledProducts/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -include /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.dia -c /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/AppDelegate.m -o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o36"BFA92E9E-6FAD-4F21-AD5B-5D9C80F09661-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427655553.618667
+e427655553.708974
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m235"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler36909e81817db941^b77fb581817db941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m0000000000000000^4693"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/usr/local/lib/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/UninstalledProducts/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -include /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.dia -c /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.m -o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o36"E9180142-0653-4E66-8F66-84604AA2E776-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427655553.616867
+e427655553.678313
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m199"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfd4b9e81817db941^72a6ad81817db941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m0000000000000000^4593"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/usr/local/lib/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/UninstalledProducts/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -include /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.dia -c /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/main.m -o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o36"242EF530-F0A3-4A0C-9322-4463F23D5804-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCompileXIB /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.xib
+s427655543.887079
+e427655553.301223
+r1
+xCompileXIB
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.xib
+o2014-07-21 13:12:32.362 Interface Builder Cocoa Touch Tool[8869:303] CFPreferences: user home directory at file:///Users/akassay/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compiling /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.xib68"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0mba4ae377817db941^ef1d4d81817db941^-231"2014-07-21 13:12:32.362 Interface Builder Cocoa Touch Tool[8869:303] CFPreferences: user home directory at file:///Users/akassay/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@137"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.xib0000000000000000^1200"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0m    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Classes/MainViewController.xib36"8621C97F-DFD1-4FA8-913B-5828314EA282-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCopyStringsFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+s427655543.903306
+e427655543.974516
+r1
+xCopyStringsFile
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+xHelloWorld/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/de.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings4c6fe777817db941^207bf977817db941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings0000000000000000^957"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/de.lproj -- HelloWorld/Resources/de.lproj/Localizable.strings36"BC8BBFFA-04CC-4FFF-9059-65DDEFCA0686-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCopyStringsFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+s427655543.886376
+e427655543.977015
+r1
+xCopyStringsFile
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+xHelloWorld/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/en.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.stringsb039e377817db941^f71efa77817db941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings0000000000000000^957"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/en.lproj -- HelloWorld/Resources/en.lproj/Localizable.strings36"6D6CDB9A-8BA8-4ABE-B9C5-D8538E413428-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+s427655543.963191
+e427655543.976525
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40.png
+xbuild/emulator/HelloWorld.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-40.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.pnge4a2f677817db941^5c04fa77817db941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-40.png00345475deffdf42^1012"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-40.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"26543CA8-E9A7-460A-A868-7A1F19E0DB45-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+s427655543.865488
+e427655543.902151
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40@2x.png
+xbuild/emulator/HelloWorld.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-40@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png57b0dd77817db941^38f4e677817db941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png00345475deffdf42^1021"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"D1EBAC94-F5F0-4049-8DF6-49361B549E3D-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+s427655543.887692
+e427655543.902849
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50.png
+xbuild/emulator/HelloWorld.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-50.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.pnga969e377817db941^f25ce777817db941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-50.png00345475deffdf42^1012"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-50.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"F7827525-09FD-4EF1-859D-4104C17514EB-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+s427655543.978127
+e427655544.101552
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50@2x.png
+xbuild/emulator/HelloWorld.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-50@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png1095fa77817db941^9e231a78817db941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png00345475deffdf42^1021"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"475E0B37-DD71-4DF5-8A50-70FB01EBF45D-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+s427655543.976174
+e427655544.101585
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60.png
+xbuild/emulator/HelloWorld.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-60.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png3f1efa77817db941^272f1a78817db941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-60.png00345475deffdf42^1012"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-60.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"B97A92D2-7D16-4514-A248-8DB216C1841E-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+s427655543.902487
+e427655543.933121
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60@2x.png
+xbuild/emulator/HelloWorld.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-60@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png0342e777817db941^e2e8ee77817db941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png00345475deffdf42^1021"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"54980E23-2004-4819-9EE2-8BC7674C59E8-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+s427655543.865782
+e427655543.902566
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72.png
+xbuild/emulator/HelloWorld.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-72.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.pngd0d2dd77817db941^d13de777817db941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-72.png00345475deffdf42^1012"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-72.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"3517F373-0329-446D-B5DC-D2459CD2A98B-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+s427655544.101149
+e427655544.131158
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72@2x.png
+xbuild/emulator/HelloWorld.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-72@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png57241a78817db941^dc9d2178817db941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png00345475deffdf42^1021"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"7E625B90-0A31-4039-BE88-B6D3E271D8F7-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+s427655543.865228
+e427655543.902180
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76.png
+xbuild/emulator/HelloWorld.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-76.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png1b9bdd77817db941^990ce777817db941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-76.png00345475deffdf42^1012"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-76.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"C4244D9F-436F-4137-942F-470C6F465349-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+s427655544.099228
+e427655544.131154
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76@2x.png
+xbuild/emulator/HelloWorld.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-76@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png9b911978817db941^e2942178817db941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png00345475deffdf42^1021"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"16AFF119-BA13-4D05-B687-F12FEA0460C2-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+s427655543.903813
+e427655543.933099
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small.png
+xbuild/emulator/HelloWorld.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-small.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png5a7fe777817db941^6ee0ee77817db941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-small.png00345475deffdf42^1021"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-small.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"062C6906-29CD-4DD3-9BE4-EBE2917A36F9-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+s427655543.933364
+e427655543.963014
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small@2x.png
+xbuild/emulator/HelloWorld.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/HelloWorld.app/icon-small@2x.png111"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png060fef77817db941^a586f677817db941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png00345475deffdf42^1030"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"83E0CA8A-3C38-476A-A673-4DCD8B9995BA-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+s427655543.866201
+e427655543.902408
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon.png
+xbuild/emulator/HelloWorld.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/HelloWorld.app/icon.png93"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.pngc8ebdd77817db941^c235e777817db941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon.png00345475deffdf42^1003"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"B6A361C4-40AC-42F5-8A05-07DA04A048E1-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+s427655543.866744
+e427655543.902679
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon@2x.png
+xbuild/emulator/HelloWorld.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon@2x.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.pngb000de77817db941^b248e777817db941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png00345475deffdf42^1012"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/icons/icon@2x.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"FACF43B8-9DE8-408B-96CE-C36C491F0BCF-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+s427655543.977481
+e427655544.101725
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-568h@2x~iphone.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png8d61fa77817db941^76341a78817db941^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png00345475deffdf42^1059"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"61198EF4-F689-41EA-AAB5-02200392120D-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+s427655543.904158
+e427655543.975811
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png136"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png73a0e777817db941^e1cef977817db941^---0#0#1#-19%DVTDocumentLocation2@155"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png00345475deffdf42^1068"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"3F610527-709D-45D1-A173-F7984906A965-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+s427655543.904487
+e427655543.976496
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-Landscape~ipad.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.pngfca7e777817db941^15fdf977817db941^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png00345475deffdf42^1059"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"7E1ACDCB-F5B5-4F59-AD9A-9BB9281497A2-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+s427655543.904988
+e427655544.098873
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png134"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png43c6e777817db941^55501978817db941^---0#0#1#-19%DVTDocumentLocation2@154"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png00345475deffdf42^1065"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"1CC4196A-4F67-45BE-93D9-09947E3699CD-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+s427655543.933639
+e427655544.100804
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/HelloWorld.app/Default-Portrait~ipad.png128"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.pngf31eef77817db941^41d41978817db941^---0#0#1#-19%DVTDocumentLocation2@151"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png00345475deffdf42^1056"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"D5877276-A5FE-4ACA-9E96-44C7AB1C1262-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+s427655543.974911
+e427655544.101418
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/HelloWorld.app/Default@2x~iphone.png120"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png02b8f977817db941^87fa1978817db941^---0#0#1#-19%DVTDocumentLocation2@147"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png00345475deffdf42^1044"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"FE815F99-498F-45E3-8E2A-1291EC2AE5F7-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+s427655543.976947
+e427655544.101427
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default~iphone.png
+xbuild/emulator/HelloWorld.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/HelloWorld.app/Default~iphone.png114"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png575afa77817db941^46091a78817db941^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png00345475deffdf42^1035"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"87A86120-9633-453C-A789-0261EA29D59A-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CGenerateDSYMFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+s427655554.400326
+e427655554.545989
+r1
+xGenerateDSYMFile
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app.dSYM
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Generate /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app.dSYM108"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorld588c6682817db941^97c68b82817db941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app.dSYM00345475deffdf42^1019"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorld    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld -o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app.dSYM36"B03C3AE2-F7B9-4D01-965E-9AF1BBBE9BB1-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CLd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+s427655553.737156
+e427655554.399593
+r1
+xLd
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+xnormal
+xi386
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld63"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i3863ecabc81817db941^404c6682817db941^---0#0#1#--2287"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i386    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -F/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -filelist /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld_dependency_info.dat -o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/HelloWorld36"2D33172C-C99D-4886-B9E6-2401960F6D32-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CPhaseScriptExecution Copy\ www\ directory /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+s427655543.679637
+e427655543.864458
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.130s
+ouser	0m0.020s
+osys	0m0.031s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'146"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.shce52ae77817db941^944ddd77817db941^-42"real	0m0.130suser	0m0.020ssys	0m0.031s3(21%IDEActivityLogMessage2@14"real	0m0.130s-427655543#1#14#-0#-----2@14"user	0m0.020s-427655543#15#14#-0#-----2@13"sys	0m0.031s-427655543#29#13#-0#-----0#0#1#--444"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    /bin/sh -c /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh36"F91104F0-88DB-4D48-B62E-BDD856C0F162-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CProcessInfoPlistFile /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Info.plist
+s427655543.648144
+e427655543.678219
+r1
+xProcessInfoPlistFile
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Process /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Info.plist110"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m1c0ba677817db941^49a0ad77817db941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Info.plist0000000000000000^1149"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    builtin-infoPlistUtility /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Info.plist -genpkginfo /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app/Info.plist36"367DD1E7-5900-4F25-B2BB-A7B44C553959-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CProcessPCH /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427655553.301959
+e427655553.615324
+r1
+xProcessPCH
+x/var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.pch
+xHelloWorld/HelloWorld-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HelloWorld/HelloWorld-Prefix.pch310"[1mProcessPCH[0m /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercf6a4d81817db941^ec869d81817db941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Prefix.pch0000000000000000^4565"[1mProcessPCH[0m /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/usr/local/lib/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/UninstalledProducts/include -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator --serialize-diagnostics /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.d -c /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/HelloWorld/HelloWorld-Prefix.pch -o /var/folders/99/2ksgw81j2g3bl5p72w44bv9j54_b5z/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aqzrqgzerctlabbomujrciqiizrr/HelloWorld-Prefix.pch.pch36"582A5766-8967-4748-AB1D-ED310F7FA58F-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
+CTouch /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app
+s427655554.547838
+e427655554.581415
+r1
+xTouch
+x/Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Touch /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app43"[1mTouch[0m build/emulator/HelloWorld.app60568c82817db941^bad89482817db941^---0#0#1#--738"[1mTouch[0m build/emulator/HelloWorld.app    cd /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:Development/adt-bundle/sdk/tools"    /usr/bin/touch -c /Users/akassay/Desktop/Work/GIT/sciencefair/research/sciencefair-app/hello/platforms/ios/build/emulator/HelloWorld.app36"57C149F8-A161-4A3E-BF50-450183250CC5-
+b1B446F97-68A7-4AC7-B9EA-187302CE8C57
+
