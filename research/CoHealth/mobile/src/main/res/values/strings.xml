@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CoHealth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+'   <string name="title">coHealth Notification</string>
+    <string name="content">My coHealth Message</string>
+    <string name="wearTitle1">Walk</string>
+    <string name="wearContent1">up the stairs Amanda</string>
+    <string name="wearTitle2">Drink</string>
+    <string name="wearContent2">more water Amanda</string>
+    <string name="button_send">Drink more water</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="water_notification_app_title">Water Notification sent.</string>
+
+
+</resources>

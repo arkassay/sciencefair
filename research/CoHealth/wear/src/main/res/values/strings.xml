@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CoHealth</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="add_water">Add water</string>
+    <string name="lightBlue">#1ba9d7</string>
+
+</resources>
