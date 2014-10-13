@@ -10,37 +10,37 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.ListView;
 
-public class Home extends Activity implements View.OnClickListener{
+public class addWater extends Activity implements View.OnClickListener {
 
-    private TextView mTextView;
-    private Button buttonSuccess;
     private ImageView waterImage;
+    private TextView mTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_add_water);
         final WatchViewStub stub = (WatchViewStub) findViewById(R.id.watch_view_stub);
         stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
+                waterImage = (ImageView) findViewById(R.id.waterImage);
+
+                waterImage.setOnClickListener(addWater.this);
                 mTextView = (TextView) stub.findViewById(R.id.text);
-                buttonSuccess = (Button) findViewById(R.id.buttonSuccess);
             }
         });
     }
 
     public void onClick(View view) {
 
-        if(view instanceof Button) {
-            Intent intentConfirmActivity = new Intent(Home.this, ConfirmationActivity.class);
+        if(view instanceof ImageView) {
+            Intent intentConfirmActivity = new Intent(addWater.this, ConfirmationActivity.class);
             int animation;
             String message = "";
 
             switch (view.getId()) {
-                case R.id.buttonSuccess:
+                case R.id.waterImage:
                     animation = ConfirmationActivity.SUCCESS_ANIMATION;
                     message = "8oz water added";
                     break;

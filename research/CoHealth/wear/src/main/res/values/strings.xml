@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="lightBlue">#1ba9d7</color>
+
     <string name="app_name">CoHealth</string>
     <string name="hello_round">Hello Round World!</string>
+
     <string name="add_water">Add water</string>
-    <string name="lightBlue">#1ba9d7</string>
+    <string name="waterImage">waterImage</string>
+
+    <string name="buttonSuccess">buttonSuccess</string>
+
+    <string name="title_activity_add_water">addWater</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_health_options">healthOptions</string>
+
+    <!--HEALTH OPTIONS SCREEN-->
+    <string name="addWaterList">Add Water</string>
+    <string name="viewSteps">View Steps</string>
+    <string name="joinEvents">Join Events</string>
 
 </resources>

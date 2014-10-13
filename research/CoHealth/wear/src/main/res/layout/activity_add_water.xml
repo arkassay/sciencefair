@@ -6,14 +6,21 @@
     android:id="@+id/watch_view_stub"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/red"
+    android:background="@color/lightBlue"
     android:textColor="@color/white"
-    app:rectLayout="@layout/rect_activity_home"
-    app:roundLayout="@layout/round_activity_home"
-    tools:context=".Home"
+    app:rectLayout="@layout/rect_activity_add_water"
+    app:roundLayout="@layout/round_activity_add_water"
+    tools:context="com.beta.cohealth.addWater"
     tools:deviceIds="wear">
 
-    <!--<TextView
+    <ImageView
+        android:id = '@+id/waterImage'
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:src="@drawable/drinkwater"
+        android:gravity="bottom|center" />
+
+    <TextView
         android:id="@+id/text"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -21,18 +28,13 @@
         android:textColor="@color/white"
         android:gravity="bottom|center"
         android:padding="16dp"
-        android:textSize="16dp" />-->
+        android:textSize="16sp" />
 
-    <!--<Button
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id = "@+id/buttonSuccess"
-        android:text = '@string/buttonSuccess'/>-->
-
-    <!--<ListView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-    </ListView>-->
+        android:text = '@string/buttonSuccess'/>
 
 
 </android.support.wearable.view.WatchViewStub>
