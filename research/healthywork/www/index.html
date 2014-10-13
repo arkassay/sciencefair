@@ -27,7 +27,8 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/mainMenu.css" />
         <link rel="stylesheet" type="text/css" href="css/homeScreen.css" />
-
+        <link rel="stylesheet" type="text/css" href="css/loadscreen.css" />
+        <link rel="stylesheet" type="text/css" href="css/leaderboard.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Healthy At Work</title>
         <script type="text/javascript" src="js/angular.min.js"></script>
@@ -35,30 +36,39 @@
     </head>
     <body ng-controller="healthHubCtrl">
       <div class="top-bar"></div>
-
+      <div class="loadscreen">
+        <div class="image-wrap">
+          <img src="img/loadscreen/icn-1.png" />
+        </div>
+        <div class="logo">
+          <img src="img/logo.png" />
+        </div>
+      </div><!--/.loadscreen-->
       <div class="fixed-content-area">
         <header>
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-4">
+                <!--<a href="#track" ng-click="trackClick()" class="icn-track"></a>-->
+              </div>
+              <div class="col-xs-4">
+                <span class="user-name">Amanda</span>
+              </div>
+              <div class="col-xs-4 icn-menu-wrap">
                 <a href="#menu" ng-click="menuClick()" class="icn-menu"></a>
-              </div>
-              <div class="col-xs-4">
-                <img src="img/logo_digitaslbi.svg" alt="digitasLogo" class="logo" />
-              </div>
-              <div class="col-xs-4">
-                <a href="#track" ng-click="trackClick()" class="icn-track"></a>
               </div>
             </div>
           </div>
         </header>
-        <div class="content">
+        <div class="content home active">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-xs-12 overview-screen">
+                <img src="img/overview-screen.png" />
+              </div>
+              <!--<div class="col-xs-12">
                 <div class="avatar-area">
                   <img class="avatar-image" src="img/avatar.png" />
-                  <p class="user-name">Amanda</p>
                 </div>
                 <ul class="home-screen-options">
                   <li ng-repeat="healthInit in healthInitiatives">
@@ -66,18 +76,38 @@
                     <span class="total">{{healthInit.total}}</span>
                   </li>
                 </ul>
-              </div><!--/.col-xs-12-->
+              </div>--><!--/.col-xs-12-->
             </div><!--/.row-->
           </div><!--/.container-fluid-->
         </div><!--/.content-->
+
+        <div class="content leaderboard">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 leaderboard-screen">
+                <img src="img/leaderboard/company-results.png" />
+                <img src="img/leaderboard/leaderboard-list.png" />
+              </div>
+            </div>
+          </div>
+        </div><!--/.leaderboard-->
+
+
+
+
       </div><!--/.fixed-content-area-->
 
       <div class="main-menu">
+        <h2>Menu</h2>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#leaderboard">Leaderboard</a></li>
+          <li><a href="#home" ng-click="homeClick()">Home</a></li>
+          <li><a href="#leaderboard" ng-click="leaderboardClick()">Leaderboard</a></li>
           <li><a href="#lifetime">Lifetime</a></li>
+          <li><a href="#events">Events</a></li>
           <li><a href="#goals">Goals</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#inbox">Inbox</a></li>
+          <li><a href="#settings">Settings</a></li>
         </ul>
       </div>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

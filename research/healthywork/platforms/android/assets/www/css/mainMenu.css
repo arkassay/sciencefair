@@ -6,21 +6,32 @@
   -webkit-transition: all 1s ease;
   top: 20px;
   height: 100%;
-  background: red;
+  background: #333;
   color: white;
   font-size: 18px;
   z-index: 0;
+  right: 0;
 }
 /*.main-menu.open{
   left: 0;
 }*/
 .main-menu ul{
   list-style-type: none;
-  padding: 20px 10px;
+  padding: 20px 0 0 70px;
   margin: 0;
   width: 100%;
   box-sizing: border-box;
+  font-size: 25px;
+  text-transform: none;
 
+}
+.main-menu h2{
+  margin: 0;
+  padding: 20px 0 0 70px;
+  color: #adadad;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 20px;
 }
 .main-menu .icn-close{
   padding: 0;
@@ -52,8 +63,7 @@
 }
 .main-menu li{
     width: 100%;
-    padding: 10px 0;
-    border-bottom: 1px solid #FFF;
+    padding: 0 0 10px 0;
 }
 .main-menu a, .main-menu a:hover{
   color: white;

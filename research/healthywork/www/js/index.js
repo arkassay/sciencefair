@@ -20,6 +20,19 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        var i = 0;
+        var myInterval = setInterval(function(){
+          ++i;
+          if (i < 10) {
+            swapImage(i);
+          }
+        }, 500);
+
+        setTimeout(function() {
+          /*$('.loadscreen').addClass('out');*/
+          clearInterval(myInterval)
+          $('.loadscreen').fadeOut();
+        }, 5000);
     },
     // Bind Event Listeners
     //
@@ -47,3 +60,7 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+function swapImage(i) {
+  $('.loadscreen .image-wrap img').attr('src', 'img/loadscreen/icn-' + (i) + '.png');
+}

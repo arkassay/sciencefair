@@ -1,0 +1,12 @@
+.leaderboard{
+  display:none;
+}
+.leaderboard.active{
+  display:block;
+}
+.leaderboard-screen{
+  padding: 0;
+}
+.leaderboard-screen img{
+  width: 100%;
+}
