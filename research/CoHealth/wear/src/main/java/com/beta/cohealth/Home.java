@@ -37,12 +37,12 @@ public class Home extends Activity implements View.OnClickListener{
                 R.drawable.drinkwater, getString(R.string.drinkScreenTitle), openAddWater).build();
 
         NotificationCompat.Action actionTakeStairs = new NotificationCompat.Action.Builder(
-                R.drawable.ic_launcher, getString(R.string.walkNotificationTitle), takeStairs).build();
+                R.drawable.icn_stairs, getString(R.string.walkNotificationTitle), takeStairs).build();
 
         Notification notificationWater = new NotificationCompat.Builder(this)
                 .setContentText(getString(R.string.drinkNotificationDesc))
                 .setContentTitle(getString(R.string.drinkNotificationTitle))
-                .setSmallIcon(R.drawable.drinkwater)
+                .setSmallIcon(R.drawable.icn_water)
                 //.setContentIntent(openAddWater)
                 .extend(new NotificationCompat.WearableExtender().addAction(actionAddWater))
                 .build();
@@ -50,7 +50,7 @@ public class Home extends Activity implements View.OnClickListener{
         Notification notificationTakeStairs = new NotificationCompat.Builder(this)
                 .setContentText(getString(R.string.walkNotificationDesc))
                 .setContentTitle(getString(R.string.walkNotificationTitle))
-                .setSmallIcon(R.drawable.ic_launcher)
+                .setSmallIcon(R.drawable.icn_stairs)
                 //.setContentIntent(takeStairs)
                 .extend(new NotificationCompat.WearableExtender().addAction(actionTakeStairs))
                 .build();
