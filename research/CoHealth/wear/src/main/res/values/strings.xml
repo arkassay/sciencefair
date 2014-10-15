@@ -2,6 +2,7 @@
 <resources>
 
     <color name="lightBlue">#1ba9d7</color>
+    <color name="darkGray">#333333</color>
 
     <string name="app_name">CoHealth</string>
     <string name="hello_round">Hello Round World!</string>
@@ -39,7 +40,7 @@
     <!-- JOIN EVENT NOTIFICATION -->
     <string name="eventNotificationTitle">Event</string>
     <string name="eventNotificationDesc">Yoga tonight at 7pm on the 12th floor. Your Friend Tyler has RSVP\'d to attend.</string>
-    <string name="eventNotificationTitle2">Join Event</string>
+    <string name="eventNotificationTitle2">Join Event?</string>
 
     <!-- JOIN EVENT OPTIONS -->
     <string name="eventScreenTitle">Join Your friend Tyler tonight at Yoga?</string>

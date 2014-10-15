@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html ng-app="healthyApp">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/mainMenu.css" />
+        <link rel="stylesheet" type="text/css" href="css/homeScreen.css" />
+        <link rel="stylesheet" type="text/css" href="css/loadscreen.css" />
+        <link rel="stylesheet" type="text/css" href="css/leaderboard.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Healthy At Work</title>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/controllers.js"></script>
+    </head>
+    <body ng-controller="healthHubCtrl">
+      <div class="top-bar"></div>
+      <div class="loadscreen">
+        <div class="image-wrap">
+          <img src="img/loadscreen/icn-1.png" />
+        </div>
+        <div class="logo">
+          <img src="img/logo.png" />
+        </div>
+      </div><!--/.loadscreen-->
+      <div class="fixed-content-area">
+        <header>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-4">
+                <!--<a href="#track" ng-click="trackClick()" class="icn-track"></a>-->
+              </div>
+              <div class="col-xs-4">
+                <span class="user-name">Amanda</span>
+              </div>
+              <div class="col-xs-4 icn-menu-wrap">
+                <a href="#menu" ng-click="menuClick()" class="icn-menu"></a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="content home active">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 overview-screen">
+                <img src="img/overview-screen.png" />
+              </div>
+              <!--<div class="col-xs-12">
+                <div class="avatar-area">
+                  <img class="avatar-image" src="img/avatar.png" />
+                </div>
+                <ul class="home-screen-options">
+                  <li ng-repeat="healthInit in healthInitiatives">
+                    {{healthInit.name}}
+                    <span class="total">{{healthInit.total}}</span>
+                  </li>
+                </ul>
+              </div>--><!--/.col-xs-12-->
+            </div><!--/.row-->
+          </div><!--/.container-fluid-->
+        </div><!--/.content-->
+
+        <div class="content leaderboard">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 leaderboard-screen">
+                <img src="img/leaderboard/company-results.png" />
+                <img src="img/leaderboard/leaderboard-list.png" />
+              </div>
+            </div>
+          </div>
+        </div><!--/.leaderboard-->
+
+
+
+
+      </div><!--/.fixed-content-area-->
+
+      <div class="main-menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#home" ng-click="homeClick()">Home</a></li>
+          <li><a href="#leaderboard" ng-click="leaderboardClick()">Leaderboard</a></li>
+          <li><a href="#lifetime">Lifetime</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#inbox">Inbox</a></li>
+          <li><a href="#settings">Settings</a></li>
+        </ul>
+      </div>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+      <script type="text/javascript">
+        app.initialize();
+      </script>
+    </body>
+</html>

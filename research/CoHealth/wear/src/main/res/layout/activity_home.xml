@@ -6,33 +6,19 @@
     android:id="@+id/watch_view_stub"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/red"
+    android:background="@color/darkGray"
     android:textColor="@color/white"
     app:rectLayout="@layout/rect_activity_home"
     app:roundLayout="@layout/round_activity_home"
     tools:context=".Home"
     tools:deviceIds="wear">
 
-    <!--<TextView
-        android:id="@+id/text"
+    <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="@string/add_water"
-        android:textColor="@color/white"
-        android:gravity="bottom|center"
-        android:padding="16dp"
-        android:textSize="16dp" />-->
+        android:src="@drawable/co_health"
+        android:padding="20dp" />
 
-    <!--<Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id = "@+id/buttonSuccess"
-        android:text = '@string/buttonSuccess'/>-->
-
-    <!--<ListView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-    </ListView>-->
 
 
 </android.support.wearable.view.WatchViewStub>

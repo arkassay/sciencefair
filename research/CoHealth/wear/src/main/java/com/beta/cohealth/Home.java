@@ -38,13 +38,13 @@ public class Home extends Activity implements View.OnClickListener{
         PendingIntent joinEvent = PendingIntent.getActivity(this, 0, intentJoinEvent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         NotificationCompat.Action actionAddWater = new NotificationCompat.Action.Builder(
-                R.drawable.drinkwater, getString(R.string.drinkScreenTitle), openAddWater).build();
+                R.drawable.icn_water_lg, getString(R.string.drinkScreenTitle), openAddWater).build();
 
         NotificationCompat.Action actionTakeStairs = new NotificationCompat.Action.Builder(
-                R.drawable.icn_stairs, getString(R.string.walkNotificationTitle), takeStairs).build();
+                R.drawable.icn_stairs_lg, getString(R.string.walkNotificationTitle), takeStairs).build();
 
         NotificationCompat.Action actionJoinEvent = new NotificationCompat.Action.Builder(
-                R.drawable.icn_event, getString(R.string.eventNotificationTitle2), joinEvent).build();
+                R.drawable.icn_event_lg, getString(R.string.eventNotificationTitle2), joinEvent).build();
 
         Notification notificationWater = new NotificationCompat.Builder(this)
                 .setContentText(getString(R.string.drinkNotificationDesc))

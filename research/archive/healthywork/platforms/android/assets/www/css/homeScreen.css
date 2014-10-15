@@ -1,0 +1,29 @@
+.home{
+  display:none;
+}
+.home.active{
+  display:block;
+}
+.overview-screen {
+  padding: 0;
+}
+.overview-screen img{
+  width: 100%;
+}
+ul.home-screen-options{
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.home-screen-options li{
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:left;
+  border-bottom: 2px solid red;
+}
+.home-screen-options li .total{
+  float:right;
+}
