@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
@@ -33,16 +34,24 @@ public class Home extends Activity implements View.OnClickListener{
         Intent intentAddWater = new Intent(this, addWater.class);
         PendingIntent openAddWater = PendingIntent.getActivity(this, 0, intentAddWater, PendingIntent.FLAG_UPDATE_CURRENT);
 
+        Intent intentJoinEvent = new Intent(this, joinEvent.class);
+        PendingIntent joinEvent = PendingIntent.getActivity(this, 0, intentJoinEvent, PendingIntent.FLAG_UPDATE_CURRENT);
+
         NotificationCompat.Action actionAddWater = new NotificationCompat.Action.Builder(
                 R.drawable.drinkwater, getString(R.string.drinkScreenTitle), openAddWater).build();
 
         NotificationCompat.Action actionTakeStairs = new NotificationCompat.Action.Builder(
                 R.drawable.icn_stairs, getString(R.string.walkNotificationTitle), takeStairs).build();
 
+        NotificationCompat.Action actionJoinEvent = new NotificationCompat.Action.Builder(
+                R.drawable.icn_event, getString(R.string.eventNotificationTitle2), joinEvent).build();
+
         Notification notificationWater = new NotificationCompat.Builder(this)
                 .setContentText(getString(R.string.drinkNotificationDesc))
                 .setContentTitle(getString(R.string.drinkNotificationTitle))
                 .setSmallIcon(R.drawable.icn_water)
+                .setLargeIcon(BitmapFactory.decodeResource(
+                        getResources(), R.drawable.bg_water))
                 //.setContentIntent(openAddWater)
                 .extend(new NotificationCompat.WearableExtender().addAction(actionAddWater))
                 .build();
@@ -51,17 +60,32 @@ public class Home extends Activity implements View.OnClickListener{
                 .setContentText(getString(R.string.walkNotificationDesc))
                 .setContentTitle(getString(R.string.walkNotificationTitle))
                 .setSmallIcon(R.drawable.icn_stairs)
+                .setLargeIcon(BitmapFactory.decodeResource(
+                        getResources(), R.drawable.bg_walk))
                 //.setContentIntent(takeStairs)
-                .extend(new NotificationCompat.WearableExtender().addAction(actionTakeStairs))
+                .extend(new NotificationCompat.WearableExtender()
+                        .addAction(actionTakeStairs))
+                .build();
+
+
+        Notification notificationJoinEvent = new NotificationCompat.Builder(this)
+                .setContentText(getString(R.string.eventNotificationDesc))
+                .setContentTitle(getString(R.string.eventNotificationTitle))
+                .setSmallIcon(R.drawable.icn_event)
+                .setLargeIcon(BitmapFactory.decodeResource(
+                        getResources(), R.drawable.bg_event))
+                        //.setContentIntent(openAddWater)
+                .extend(new NotificationCompat.WearableExtender().addAction(actionJoinEvent))
                 .build();
 
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(this);
         notificationManagerCompat.notify(001, notificationWater);
 
+        NotificationManagerCompat notificationManagerCompat3 = NotificationManagerCompat.from(this);
+        notificationManagerCompat3.notify(003, notificationJoinEvent);
+
         NotificationManagerCompat notificationManagerCompat2 = NotificationManagerCompat.from(this);
         notificationManagerCompat2.notify(002, notificationTakeStairs);
-
-
 
         final WatchViewStub stub = (WatchViewStub) findViewById(R.id.watch_view_stub);
         stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {

@@ -8,17 +8,16 @@
     android:layout_height="match_parent"
     android:background="@color/red"
     android:textColor="@color/white"
-    app:rectLayout="@layout/rect_activity_add_water"
-    app:roundLayout="@layout/round_activity_add_water"
-    tools:context="com.beta.cohealth.addWater"
+    app:rectLayout="@layout/rect_activity_join_event"
+    app:roundLayout="@layout/round_activity_join_event"
+    tools:context="com.beta.cohealth.joinEvent"
     tools:deviceIds="wear">
-
 
     <TextView
         android:id="@+id/text"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="@string/drinkConfirmTitle"
+        android:text="@string/eventConfirmTitle"
         android:textColor="@color/white"
         android:gravity="bottom|center"
         android:layout_marginBottom="55dp"
@@ -28,7 +27,7 @@
         android:id="@+id/text"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="@string/drinkConfirmDesc"
+        android:text="@string/eventConfirmDesc"
         android:textColor="@color/white"
         android:gravity="bottom|center"
         android:padding="16dp"
@@ -41,6 +40,5 @@
         android:src="@drawable/unicorn_white"
         android:gravity="top|center"
         android:layout_marginTop="10dp"/>
-
 
 </android.support.wearable.view.WatchViewStub>

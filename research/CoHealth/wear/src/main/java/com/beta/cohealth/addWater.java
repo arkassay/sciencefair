@@ -29,9 +29,9 @@ public class addWater extends Activity implements View.OnClickListener {
         stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
-                waterImage = (ImageView) findViewById(R.id.waterImage2);
+                //waterImage = (ImageView) findViewById(R.id.waterImage2);
 
-                waterImage.setOnClickListener(addWater.this);
+                //waterImage.setOnClickListener(addWater.this);
             }
         });
     }
@@ -44,11 +44,11 @@ public class addWater extends Activity implements View.OnClickListener {
             String message = "";
 
             switch (view.getId()) {
-                case R.id.waterImage2:
+                /*case R.id.waterImage2:
                     animation = ConfirmationActivity.SUCCESS_ANIMATION;
                     message = "8oz water added";
                     Log.i("clicked water", "on click event");
-                    break;
+                    break;*/
                 default:
                     animation = ConfirmationActivity.FAILURE_ANIMATION;
                     //animation = ConfirmationActivity.OPEN_ON_PHONE_ANIMATION;
