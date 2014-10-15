@@ -9,7 +9,7 @@
     <string name="add_water">Add water</string>
     <string name="waterImage">waterImage</string>
 
-    <string name="buttonSuccess">buttonSuccess</string>
+    <string name="buttonSuccess">Add water</string>
 
     <string name="title_activity_add_water">addWater</string>
     <string name="hello_square">Hello Square World!</string>
@@ -19,5 +19,37 @@
     <string name="addWaterList">Add Water</string>
     <string name="viewSteps">View Steps</string>
     <string name="joinEvents">Join Events</string>
+
+    <!--WALK NOTIFICATION-->
+    <string name="walkNotificationTitle">Walk</string>
+    <string name="walkNotificationDesc">Take the stairs instead of the elevator. 1,325 more steps until you reach your goal</string>
+
+    <!--WALK CONFIRMATION-->
+    <string name="walkConfirmationTitle">Superstar</string>
+    <string name="walkConfirmationDesc">You just climbed 214 stairs and burned 45 calories</string>
+
+    <!--DRINK WATER NOTIFICATION-->
+    <string name="drinkNotificationTitle">Drink</string>
+    <string name="drinkNotificationDesc">more water. 120 oz more until you reach your goal</string>
+
+    <!--DRINK WATER SCREEN-->
+    <string name="drinkScreenTitle">Add water</string>
+
+    <!--DRINK WATER CONFIRMATION SCREEN-->
+    <string name="drinkConfirmTitle">Giddy up!</string>
+    <string name="drinkConfirmDesc">You just jumped a spot on the leaderboard</string>
+
+    <!--JOIN EVENT NOTIFICATION-->
+    <string name="eventNotificationTitle">Event</string>
+    <string name="eventNotificationDesc">Yoga tonight at 7pm on the 12th floor. Your Friend Tyler has RSVP\'d to attend.</string>
+
+    <!--JOIN EVENT OPTIONS-->
+    <string name="eventScreenTitle">Join Your friend Tyler tonight at Yoga?</string>
+    <string name="eventYes">Yes</string>
+    <string name="eventNo">No</string>
+
+    <!--EVENT JOINED CONFIRMATION SCREEN-->
+    <string name="eventConfirmTitle">Triangle Pose</string>
+    <string name="eventConfirmDesc">We\'ll let tyler know you are coming tonight.</string>
 
 </resources>
