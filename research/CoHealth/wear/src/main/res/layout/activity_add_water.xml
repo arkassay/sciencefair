@@ -13,12 +13,7 @@
     tools:context="com.beta.cohealth.addWater"
     tools:deviceIds="wear">
 
-    <ImageView
-        android:id = '@+id/waterImage'
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:src="@drawable/drinkwater"
-        android:gravity="bottom|center" />
+
 
     <TextView
         android:id="@+id/text"
@@ -30,11 +25,12 @@
         android:padding="16dp"
         android:textSize="16sp" />
 
-    <Button
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id = '@+id/waterImage2'
         android:layout_height="wrap_content"
-        android:id = "@+id/buttonSuccess"
-        android:text = '@string/buttonSuccess'/>
+        android:layout_width="fill_parent"
+        android:src="@drawable/drinkwater"
+        android:gravity="bottom|center" />
 
 
 </android.support.wearable.view.WatchViewStub>
