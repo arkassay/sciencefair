@@ -94,6 +94,9 @@ header{
 }
 .icn-menu-wrap{
   text-align:right;
+  position:absolute;
+  top: 7px;
+  right: 20px;
 }
 .icn-menu {
   position: relative;
