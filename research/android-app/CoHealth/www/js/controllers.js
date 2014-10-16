@@ -19,6 +19,7 @@ healthyApp.controller('healthHubCtrl', function ($scope) {
     $('.active').removeClass('active');
     $('.leaderboard').addClass('active');
     $('#box').height($('.box img').height());
+    $('.user-name').text('Leaderboard');
 
   };
 
@@ -26,12 +27,14 @@ healthyApp.controller('healthHubCtrl', function ($scope) {
     $('.main-menu, .fixed-content-area').toggleClass('open');
     $('.active').removeClass('active');
     $('.home').addClass('active');
+    $('.user-name').text('Amanda');
   }
 
   $scope.goalsClick = function() {
     $('.main-menu, .fixed-content-area').toggleClass('open');
     $('.active').removeClass('active');
     $('.goals').addClass('active');
+    $('.user-name').text('Goals');
   }
 
 
