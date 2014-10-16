@@ -44,6 +44,19 @@
           <img src="img/logo.png" />
         </div>
       </div><!--/.loadscreen-->
+      <div class="main-menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#home" ng-click="homeClick()">Home</a></li>
+          <li><a href="#leaderboard" ng-click="leaderboardClick()">Leaderboard</a></li>
+          <li><a href="#lifetime">Lifetime</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#goals" ng-click="goalsClick()">Goals</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#inbox">Inbox</a></li>
+          <li><a href="#settings">Settings</a></li>
+        </ul>
+      </div>
       <div class="fixed-content-area">
         <header>
           <div class="container-fluid">
@@ -85,34 +98,45 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 leaderboard-screen">
-                <img src="img/leaderboard/company-results.png" />
+                <div id="box">
+                  <div class="box activeBox center">
+                    <img src="img/leaderboard/company-results.png" />
+                  </div>
+                  <div class="box right">
+                    <img src="img/leaderboard/the-challenge.png" />
+                  </div>
+                  <div class="box right">
+                    <img src="img/leaderboard/the-reward.png" />
+                  </div>
+                </div>
+
+
                 <img src="img/leaderboard/leaderboard-list.png" />
               </div>
             </div>
           </div>
         </div><!--/.leaderboard-->
 
+        <div class="content goals">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-10 col-xs-offset-1">
+                <!--
+                -->
 
-
+              </div>
+            </div>
+          </div>
+        </div><!--/.leaderboard-->
 
       </div><!--/.fixed-content-area-->
 
-      <div class="main-menu">
-        <h2>Menu</h2>
-        <ul>
-          <li><a href="#home" ng-click="homeClick()">Home</a></li>
-          <li><a href="#leaderboard" ng-click="leaderboardClick()">Leaderboard</a></li>
-          <li><a href="#lifetime">Lifetime</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#goals">Goals</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#inbox">Inbox</a></li>
-          <li><a href="#settings">Settings</a></li>
-        </ul>
-      </div>
+
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
       <script type="text/javascript" src="cordova.js"></script>
       <script type="text/javascript" src="js/index.js"></script>
+
       <script type="text/javascript">
         app.initialize();
       </script>

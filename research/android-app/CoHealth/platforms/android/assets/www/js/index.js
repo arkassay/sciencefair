@@ -26,13 +26,12 @@ var app = {
           if (i < 10) {
             swapImage(i);
           }
-        }, 500);
+        }, 200);
 
         setTimeout(function() {
-          /*$('.loadscreen').addClass('out');*/
           clearInterval(myInterval)
           $('.loadscreen').fadeOut();
-        }, 5000);
+        }, 2000);
     },
     // Bind Event Listeners
     //
@@ -64,3 +63,32 @@ var app = {
 function swapImage(i) {
   $('.loadscreen .image-wrap img').attr('src', 'img/loadscreen/icn-' + (i) + '.png');
 }
+
+
+$(function() {
+	//Enable swiping...
+ $('#box').swipe( {
+   //Generic swipe handler for all directions
+   swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+     if (direction == 'right') {
+       var prev = $('.box.activeBox').prev();
+       if (prev.length > 0) {
+         $('.box.activeBox').css({'left': '100%'});
+         prev.css({'left': 0});
+         $('.box.activeBox').removeClass('activeBox').prev().addClass('activeBox');
+       }
+     } else if (direction == 'left') {
+       var next = $('.box.activeBox').next();
+       if (next.length > 0) {
+         $('.box.activeBox').css({'left': '-100%'});
+         next.css({'left': 0});
+         $('.box.activeBox').removeClass('activeBox').next().addClass('activeBox');
+       }
+     }
+
+     //$(this).text("You swiped " + direction );
+   },
+   //Default is 75px, set to 0 for demo so any distance triggers swipe
+    threshold:0
+ });
+});

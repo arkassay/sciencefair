@@ -1,8 +1,11 @@
 .home{
   display:none;
+  padding-bottom: 20px;
+  background: white;
 }
 .home.active{
   display:block;
+  top: 50px;
 }
 .overview-screen {
   padding: 0;

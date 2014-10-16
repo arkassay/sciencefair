@@ -20,11 +20,18 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
+@font-face {
+    font-family: 'Gotham';
+    src: url("fonts/Gotham-Light.otf") format("opentype");
+
+    }
+
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    /*font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;*/
+    font-family: 'Gotham', Helvetica, sans-serif;
     font-size:12px;
     height:100%;
     margin:0px;
@@ -54,7 +61,7 @@ body {
   height: 100%;
   background: #d71b25;
   overflow:scroll;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .fixed-content-area.open{
   right: 80%;

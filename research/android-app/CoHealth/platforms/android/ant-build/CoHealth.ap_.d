@@ -47,11 +47,18 @@
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/spec \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/spec.html \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/bootstrap.min.css \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/fonts \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/homeScreen.css \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/index.css \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/leaderboard.css \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/loadscreen.css \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/mainMenu.css \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/fonts/Gotham-Black.otf \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/fonts/Gotham-Bold.otf \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/fonts/Gotham-Book.otf \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/fonts/Gotham-Light.otf \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/fonts/Gotham-Medium.otf \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/css/fonts/Gotham-Thin.otf \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/img/leaderboard \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/img/loadscreen \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/img/logo.png \
@@ -75,6 +82,7 @@
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/js/angular.min.js \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/js/controllers.js \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/js/index.js \
+/Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/js/jquery.touchSwipe.min.js \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/partials/drink.html \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/res/icon \
 /Users/testdev1/Desktop/sciencefair/research/android-app/CoHealth/platforms/android/assets/www/res/screen \
