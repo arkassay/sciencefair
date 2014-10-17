@@ -1,0 +1,118 @@
+.product-links{
+  position:absolute;
+  bottom: 0px;
+  width: 90%;
+  z-index: 1;
+  padding:10px 0;
+  margin: 10px 0;
+  .link-title{
+    text-transform: uppercase;
+    font-size: 0.857em;
+  }
+  .links{
+    display:inline-block;
+  }
+  p{
+    font-size: 1em;
+    color: $catHeaderDark;
+  }
+  a{
+    padding: 5px 10px;
+    margin-left: 2px;
+    border: 1px solid #0061af;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+  }
+  .blue-box{
+    padding: 10px 0 10px 7px;
+    background: #f2f2f2 url('../images/sprite/icn-lftarrow-blue-sm.png') no-repeat center left;
+    margin-left: -3px;
+    a, a:hover{
+      background: $catLink;
+      color: #FFF;
+      margin-left: 0px;
+    }
+  }
+}
+.module.darkbg{
+  .product-links.inverseColors{
+    .link-title{
+      color: #FFF;
+    }
+    a,a:hover{
+      color: #0061af;
+    }
+  }
+}
+.product-links.inverseColors{
+  .link-title{
+    color: #FFF;
+  }
+  a,a:hover{
+    border: none;
+    background: rgba(255,255,255,.8);
+    color: #0061af;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .product-links.col-xs-12{
+    padding: 10px 0;
+    position:static;
+    width: 100%;
+    .link-title{
+      width: 100%;
+      display:block;
+      margin-bottom: 10px;
+    }
+    /*a,a:hover{
+      border: none;
+      background: rgba(255,255,255,.8);
+      color: #0061af;
+      margin-left: 0;
+    }*/
+
+    a:not(:first-child){
+      display:none;
+    }
+    a.read-more{
+      display:inline-block;
+    }
+    &.promo {
+      a{
+        display:block;
+        background: none;
+        width: 100%;
+        margin-left: 0;
+        padding: 5px 0;
+      }
+      a:not(:first-child){
+        display:block;
+      }
+      a.read-more{
+        display:none;
+      }
+      .link-title{
+        text-transform: uppercase;
+        display:block;
+      }
+      a.read-more{
+        display:none !important;
+      }
+      .blue-box{
+        background: #12b1c9;
+        margin-left: 0;
+        padding: 5px 10px;
+        margin-top: 5px;
+        display:inline-block;
+        a{
+          width: auto;
+          display:inline-block;
+        }
+      }
+    }
+
+  }
+}

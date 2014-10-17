@@ -1,0 +1,191 @@
+@import 'partials/_custom-variables';
+@import 'partials/content-components/_buttons';
+@import 'partials/content-components/_more_on_category';
+@import 'vendors/bootstrap/mixins/_border-radius';
+@import 'partials/_blue-bg-highlight-section.scss';
+
+
+
+.long-form-content{
+  text-align:left;
+
+  // moved this out to main h2 styles
+
+  /*.copy-section-title{
+    margin-bottom:40px;
+    font-size:3.429em;
+    text-align:center;
+    color:$bodyFontColor;
+  }*/
+
+  p{
+    font-size:1.333em;
+  }
+
+
+  .tech-used{
+    padding:50px 0 75px;
+  }
+
+  .summary,
+  .top-benefits{
+    padding:65px 0;
+  }
+  /*
+  .summary{
+    padding-top:75px;
+    p {
+      font-size:1.286em;
+      color:$blueHighlight;
+      text-align:center;
+    }
+  }*/
+
+  .tech-used{
+    margin-bottom:50px;
+
+    h2.copy-section-title{
+      text-align:center;
+    }
+
+    /*.tech{
+      margin-top:25px;
+      margin-bottom:50px;
+      + .tech{
+        margin-top:0;
+      }
+      h3, p {
+        margin:0;
+      }
+      h3{
+        font-size:1.714em;
+        a, a:hover{
+        font-size:1em;
+        }
+      }
+      p{
+        font-size:1.143em;
+      }
+    }*/
+  }
+
+  /* TODO separate out */
+  .view-all{
+    position:absolute;
+    display:block;
+    bottom:-100px;
+    text-align:center;
+    left:25%;
+    width:50%;
+    a, a:hover{
+      display:inline-block;
+      clear:both;
+      color: #FFF;
+    }
+    img{
+      display:block;
+      clear:both;
+      margin:10px auto;
+    }
+  }
+  // end view all
+
+  .top-benefits{
+    padding-bottom:70px;
+    .benefit{
+      padding:0 40px;
+      h3{
+        font-size:2.143em;
+        text-align:center;
+        color:$bodyFontColor;
+      }
+      p{
+        text-align:left;
+        font-size:1.143em;
+      }
+      + .benefit{
+        border-left:1px solid #CCC;
+      }
+    }
+  }
+
+  .copy-section{
+    p,
+    ul {
+      font-size:1.286em; /* 18px */
+      line-height:1.636em;
+      text-align:left;
+    }
+    ul li+ li{
+      margin-top:50px;
+    }
+    .small{
+      font-size:1.167em;
+      text-align:center;
+      margin:0;
+      line-height:1.2em;
+    }
+  }
+}
+
+@media (max-width: 767px){
+  .long-form-content{
+    .hero{
+      padding:80px 0 40px;
+    }
+    .main-content{
+      .hero-wrapper{
+        .headline{
+          padding:0; // moved to hero
+          h1{
+            font-size:3em;
+          }
+        }
+      }
+    }
+
+    .benefit{
+      float:none;
+      margin:0 auto 50px;
+
+      + benefit{
+        margin:50px auto;
+      }
+      p{
+        max-width:100%;
+      }
+    }
+
+    .summary,
+    .top-benefits,
+    .tech-used{
+      padding:25px 0;
+    }
+
+    // used for modules with View All buttons
+    .tech-used{
+      margin-bottom:25px;
+      padding-bottom:0;
+      padding-top:0;
+      .border{
+        padding-top:25px;
+        padding-bottom:55px;
+      }
+      .copy-section-title{
+        margin-top:-41px;
+        font-size:3.125em;
+      }
+    }
+    .view-all{
+      margin-top:17px;
+    }
+
+    .copy-section-title{
+      font-size:3.125em;
+      /*padding:0 10px*/
+    }
+    .quote{
+      margin-bottom:45px;
+    }
+  }
+}

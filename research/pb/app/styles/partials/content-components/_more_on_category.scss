@@ -1,0 +1,21 @@
+.more-section{
+  .more-content{
+    position:relative;
+    text-align:left;
+    p{
+      font-size:1.571em; /* 22px */
+      margin-top:.5em;
+      margin-bottom:2em;
+    }
+  }
+
+  .format-industry-title, .format-industry-title.border{
+    position:static;
+    top: auto;
+    bottom: auto;
+    left:auto;
+    padding:0;
+    margin-bottom: 10px;
+    font-size:1em;
+  }
+}

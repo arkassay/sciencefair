@@ -1,0 +1,43 @@
+@import '../partials/_custom-variables';
+@import '../vendors/bootstrap/mixins/_border-radius';
+.icn{
+  display:inline-block;
+  margin-left:10px;
+  margin-right:10px;
+  width:30px;
+  height:30px;
+}
+.icn-caret{
+  width:5px;
+  height:12px;
+  background-image: url('../images/sprite-mobile/icn-right-arrow2x.png');
+  background-size:100% auto;
+  background-repeat:no-repeat;
+}
+.icn-intel{
+  width: 30px;
+  height: 44px;
+  background-image: url('../images/sprite/icn-intel.png');
+  background-repeat: no-repeat;
+}
+.icn-plus,
+.icn-minus{
+  // TODO add cut assets from sprite
+  // ... decide if this should be bg image with left padding
+  // for long language wraps
+  display:inline-block;
+  width:30px;
+  height:30px;
+  margin-right:10px;
+  border:1px solid $blue-darker;
+  @include border-top-radius(15px);
+  @include border-bottom-radius(15px);
+}
+
+.icn-forum,
+.icn-support{
+  // TODO add cut assets from sprite
+  border:1px solid $blue-darker;
+  @include border-top-radius(15px);
+  @include border-bottom-radius(15px);
+}

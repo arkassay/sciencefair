@@ -1,0 +1,545 @@
+$menuLinkColor: #FFF;
+$menuLinkOnColor: #FFF;
+$menuLinkColorDark: #000;
+$menuLinkOnColorDark: #000;
+$menuFontColor: #FFF;
+$menuBgColor: #12b1c9;
+$menuBarBgColor: #35bdd1;
+
+@import '../partials/_custom-variables';
+@import '../vendors/bootstrap/mixins/_border-radius';
+@import '../vendors/bootstrap/mixins/_gradients';
+
+header, .open header.lightHeader{
+  &.headroom--not-top{
+    @include gradient-horizontal (rgba(0,97,175,.85), rgba(0,174,239,.85));
+  }
+  &.category.headroom--not-top{
+    background: #FFF;
+  }
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding:15px 0;
+  z-index: 13;
+  -webkit-transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -o-transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+  transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+  .container-fluid{
+    position:relative;
+  }
+  .logo{
+    a{
+      width: 166px;
+      height: 55px;
+      background: url('../images/pitneybowes-logo.png') no-repeat left bottom;
+      background-size: 100% auto;
+      float:left;
+    }
+  }
+  .icn-menu{
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    -webkit-transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -moz-transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -o-transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+    transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+    .patty {
+      width: 25px;
+      height: 2px;
+      margin: 8px auto 9px;
+      background: #fff;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      @include border-top-radius(5px);
+      @include border-bottom-radius(5px);
+      &:before, &:after{
+        content: '';
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin: 0 auto;
+        background: #FFF;
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        @include border-top-radius(5px);
+        @include border-bottom-radius(5px);
+      }
+      &:before{
+        top: 2px;
+      }
+      &:after{
+        top: 14px;
+      }
+    }
+    &:hover{
+      .patty{
+        &:before{
+          top: 0px;
+        }
+        &:after{
+          top: 16px;
+        }
+      }
+    }
+    &.x{
+      .patty{
+        background: none !important;
+        &:before {
+          top: 10px !important;
+          background: #fff !important;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+        &:after {
+          top: 10px !important;
+          background: #fff !important;
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+      }
+    }
+
+  }
+  .product-cat-title{
+    display:block;
+    text-align:right;
+    color: #FFF;
+    font-size: 1.286em;
+    line-height: 55px;
+    padding-left:0;
+    padding-right:0;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0 60px 0 0;
+    padding: 0;
+    float:right;
+  }
+  li{
+    float:right;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    .text-link{
+      display:inline-block;
+      padding:20px 15px;
+      font-size:1em;
+      color:#FFF;
+      text-transform:uppercase;
+    }
+    /*.icn-menu, */
+    .icn-search, .icn-cart{
+      display:block;
+      width: 60px;
+      height: 60px;
+    }
+
+    .icn-search{
+      background: url('../images/sprite/icn-search.png') no-repeat center;
+    }
+    .icn-cart{
+      background: url('../images/sprite/icn-cart.png') no-repeat center;
+    }
+
+  }
+}
+
+header.lightHeader{
+
+  .product-cat-title{
+    color: #4d4f4f;
+  }
+  .logo{
+    a{
+      background-image: url('../images/pitneybowes-logo-dark.png');
+    }
+  }
+  .icn-menu,
+  .icn-menu.x{
+    .patty{
+      background:$headerFontColor;
+
+      &:before,
+      &:after{
+        background:$headerFontColor!important;
+      }
+    }
+  }
+  li .text-link{
+    color:$headerFontColor;
+  }
+  li .icn-search{
+    background: url('../images/sprite/icn-search-dark.png') no-repeat center;
+  }
+  .icn-cart{
+    background: url('../images/sprite/icn-cart-dark.png') no-repeat center;
+  }
+}
+
+
+.product-details,
+.long-form-content{
+  header{
+    @include gradient-horizontal (rgba(0,97,175,.85), rgba(0,174,239,.85));
+  }
+}
+// had &
+.open{
+  //STYLES FOR OPEN NAVIGATION - hamburger animates into X
+  header{
+    background: none;
+    li{
+      opacity: 0;
+    }
+  }
+}
+body.scroll.open{
+  //background: #12b1c9;
+  overflow-y: scroll;
+  #home-area, footer, .main-content{
+    //display:none;
+    overflow:hidden;
+  }
+  footer{
+    display:none;
+  }
+  header{
+    position: absolute;
+    background: #26b8ef;
+  }
+  .menu-overlay{
+    display:block;
+    height: auto;
+  }
+}
+.headroom{
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned{
+  transform: translateY(-100%);
+}
+.search-overlay,
+.menu-overlay{
+  display:none;
+  //position:fixed;
+  position:absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  //overflow-y:scroll;
+  color: $menuFontColor;
+  box-sizing: border-box;
+  padding-bottom:40px;
+  padding-top: 62px;
+  margin-top: -62px;
+  //opacity: 0;
+  //visibility: hidden;
+  //transition: opacity 1s, visibility 0s 1s;
+  //-webkit-transition: opacity 1s, visibility 0s 1s;
+  // background-color: $menuBgColor;
+  @include gradient-vertical(#00a9eb,#0068b5, 50%, 100%);
+  z-index: 12;
+  .fixed-top{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color:$menuBarBgColor;
+  }
+  .logo{
+    position:relative;
+    padding: 15px 0;
+  }
+  .close{
+    display:inline-block;
+    margin:20px 0;
+    background: url('../images/sprite/icn-close.png') no-repeat;
+    width: 23px;
+    height: 21px;
+  }
+  .table{
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .vertical-wrap{
+    display:table-cell;
+    width: 100%;
+    vertical-align:middle;
+  }
+  .divider{
+    height: 1px;
+    background: white;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .secondary-nav{
+    .desktop-menu-footer {
+      margin:0 auto;
+      float:none;
+    }
+    text-align: center;
+    a, a:hover{
+      font-size: 1.33333em;
+      color: $menuLinkColor;
+      text-decoration: none;
+      text-transform:uppercase;
+    }
+    a:hover{
+      color: $menuLinkOnColor;
+    }
+  }
+  ul.cat-links{
+    list-style-type:none;
+    position:relative;
+    padding:90px 0 0;
+    /* padding: 5em 0; /*60/12 (base font) */
+    box-sizing:border-box;
+    width: 100%;
+    margin: 0 auto;
+    li{
+      display:block;
+      text-align:center;
+      padding-bottom: 3.3333em; /* 40/12 (base font)*/
+        a, a:hover{
+          color: $menuLinkColor;
+          font-size: 2.5em;
+          text-decoration: none;
+          font-weight: normal;
+        }
+        a:hover{
+          color: $menuLinkOnColor;
+        }
+    }
+  }
+  ul.bottom-links{
+    list-style-type: none;
+    padding: 3.3333em 0;
+    text-align:center;
+    li{
+      display:inline-block;
+      text-align:center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 45px;
+      a, a:hover{
+        color: $menuLinkColor;
+        font-size: 1.5em;
+        text-decoration:none;
+      }
+      a:hover{
+        color: $menuLinkOnColor;
+      }
+    }
+    li.last{
+      padding-right: 0;
+    }
+  }
+}
+/* these were mobile I moved them out for now */
+.search-overlay{
+  .mobile-search{
+    background-image: url('../images/sprite-mobile/icn-search2x.png');
+    background-position: 10px center;
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    color: white;
+    text-decoration:none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 40px;
+    line-height: 1em;
+    font-size: 2.125em;
+  }
+  .search-clear{
+      position:relative;
+      float:right;
+      top:-38px;
+      padding-right:10px;
+      font-size: 1.5em;
+      color:$menuLinkColor;
+      text-decoration:none;
+      text-transform:uppercase;
+  }
+}
+.menu-overlay.open{
+  display:block;
+}
+.menu-overlay.closed{
+  display:block;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .touch{
+    header{
+      @include gradient-horizontal (rgba(0,97,175,.85), rgba(0,174,239,.85));
+      li{
+        .text-link{
+          padding-top:23px;
+          padding-bottom:23px
+        }
+      }
+    }
+    .product-details,
+    .long-form-content{
+      header{
+        @include gradient-horizontal (rgba(0,97,175,.85), rgba(0,174,239,.85));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  header{
+     background: rgba(255,255,255,.1);
+
+    .logo{
+      padding-left: 5%;
+      padding-right: 5%;
+      box-sizing: border-box;
+      max-width:100%;
+      a{
+        height:40px;
+        background: url('../images/sprite-mobile/pitneybowes-logo2x.png') no-repeat;
+        background-size: 100% auto;
+      }
+    }
+    &.lightHeader{
+      .logo{
+        a{
+          background-image: url('../images/sprite-mobile/pitneybowes-logo2x-dark.png');
+        }
+      }
+      .icn-search{
+        background-image: url('../images/sprite-mobile/icn-search2x-dark.png');
+        background-position: right center;
+      }
+    }
+
+    li{
+      /*.icn-menu,*/ .icn-search, .icn-cart{
+        background-repeat: no-repeat;
+        background-size: 50% auto;
+        background-position: right;
+      }
+      /*.icn-menu{
+        background-image: url('../images/sprite-mobile/icn-menu2x.png');
+      }*/
+      .icn-search{
+        height:40px;
+        background-image: url('../images/sprite-mobile/icn-search2x.png');
+        background-position: right center;
+      }
+      .icn-cart{
+        background-image: url('../images/sprite-mobile/icn-cart2x.png');
+      }
+    }
+    .icn-menu{
+      right: 5%;
+      top:10px;
+      .patty{
+        float:right;
+        &:before, &:after{
+          float:right;
+        }
+      }
+    }
+  }
+  .search-overlay,
+  .menu-overlay{
+    padding-top: 122px;
+
+    /*overflow-y:scroll;*/
+    .container-fluid{
+      padding-bottom: 82px;
+    }
+    .fixed-top{
+      position:fixed;
+      top: 0;
+    }
+    .close{
+      background-image: url('../images/sprite-mobile/icn-close2x.png');
+      background-repeat: no-repeat;
+      background-size: 19px auto;
+      background-position: right;
+    }
+    .table{
+      display:block;
+      margin-top:0px;
+      padding-top: 20px;
+      .vertical-wrap{
+        display: block;
+      }
+    }
+    ul.cat-links{
+      padding: 0;
+      width: 100%;
+      border-bottom: 0;
+      li{
+        a, a:hover{
+          color: $menuLinkColor;
+          font-size: 3.125em;
+        }
+        a:hover{
+          color: $menuLinkOnColor;
+        }
+      }
+      li.last{
+        padding-bottom: 0;
+      }
+    }
+    ul.bottom-links{
+      margin: 0;
+      padding: 0;
+      li{
+        width: 50%;
+        text-align:center;
+        padding-right: 0;
+        float:left;
+        a, a:hover{
+          font-size: 1.875em;
+        }
+      }
+      li.last{
+        border-left: none;
+      }
+    }
+    .secondary-nav{
+        a, a:hover{
+          font-size:2.000em;
+        }
+    }
+  }
+}

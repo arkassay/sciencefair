@@ -1,0 +1,35 @@
+//STYLING VARIABLES - Font colors, bg colors, font families
+$headerFont: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+$bodyFont: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+$bodyFontColor: #4d4f4f;
+$bodyLinkColor: #0061af;
+$headerFontColor: #0061af;
+$bodyLinkOnColor: #0061af;
+$bodyLinkOnColorWithOpacity: rgba(0,97,175,.2);
+$darkBG: #053043;
+$darkBgFontColor: #FFF;
+$darkBgLinkColor: #FFF;
+$darkBgLinkOnColor: #FFF;
+
+$grayBg: #f1f1f1;
+
+
+//colors
+$pink: #bf1e8e;
+$blue-darker: #0061af;
+$blue-lighter: #00adee;
+
+
+//CONFIGURE VARIABLES
+/*$maxWidth : 106.66667em; 1280px base font 12px*/
+$maxWidth : 83.5714285714em; /*1170px*/
+$gutterWidth : 1.5625%; /*maxWidth / 20*/
+
+
+// LONG FORM CONTENT
+$mediumGray: #888888;
+$lightGray: #cccccc;
+
+$blueHighlight:#00adee;
+$darkLinks:#000;
+$radius: 3px;

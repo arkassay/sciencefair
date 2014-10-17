@@ -1,0 +1,122 @@
+@import 'vendors/snappish/jquery.snappish';
+@import 'vendors/bootstrap/mixins/_gradients';
+
+$storyFontColor: #FFFFFF;
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+#brandstory-area{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  @include gradient-vertical(#008fd5,#0061af);
+}
+#animateArea{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 5%;
+    padding: 0;
+    #canvas{
+      position:relative;
+    }
+
+}
+.frame-content{
+  display:none;
+}
+
+h4{
+  color: white;
+  width: 70%;
+  margin-left: 15%;
+  text-align:center;
+  position:absolute;
+  top: 25%;
+  display:none;
+  font-size: 45px;
+}
+p{
+  color: white;
+  font-size: 20px;
+  width: 70%;
+  position:absolute;
+  top: 60%;
+  display:none;
+  margin-left: 15%;
+  text-align:center;
+}
+.frame {
+    /*background: -webkit-linear-gradient(right top, rgba(43,71,92,1),rgba(72,146,131,1));
+    background: -moz-linear-gradient(bottom left, rgba(43,71,92,1),rgba(72,146,131,1));
+    background: linear-gradient(to bottom left, rgba(43,71,92,1),rgba(72,146,131,1));*/
+    //background-color: rgba(43,71,92,1);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    box-sizing: border-box;
+    .down-arrow{
+      position:absolute;
+      width: 50px;
+      height: auto;
+      margin-left: -25px;
+      left: 50%;
+      bottom: 100px;
+      cursor: pointer;
+    }
+  h1, h2, h3, h4{
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+  }
+  .story-title{
+    position:absolute;
+    height: 100%;
+    padding-top:25%;
+    h3{
+      position:relative;
+      font-size: 2.5em;
+      color: $storyFontColor;
+      margin: 0;
+      padding: 0 0 10px 0;
+      border-bottom: 1px solid #FFF;
+    }
+    p{
+      position:relative;
+      color: $storyFontColor;
+      font-size: 1.5em;
+      margin-top: 30px;
+    }
+  }
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 767px) {
+  .frame{
+    .down-arrow{
+      width: 30px;
+      margin-left: -15px;
+    }
+  }
+  h4{
+    font-size: 16px;
+  }
+  p{
+    font-size: 10px;
+  }
+
+}
+
+@import 'partials/brandstory/_frame1';
+@import 'partials/brandstory/_frame2';
+@import 'partials/brandstory/_frame3';
+@import 'partials/brandstory/_frame4';

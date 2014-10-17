@@ -1,0 +1,159 @@
+// bower:scss
+// endbower
+$radius: 3px;
+
+@import 'partials/_custom-variables';
+@import 'vendors/bootstrap/_bootstrap-custom';
+@import 'vendors/_animate';
+@import 'partials/utils/_video';
+@import 'partials/_menu';
+@import 'partials/_footer';
+@import 'partials/_share';
+@import 'partials/utils/_hero.scss';
+@import 'partials/content-components/_format-industry-title';
+@import 'partials/content-components/_blockquote';
+@import 'partials/content-components/_tabs';
+@import 'partials/content-components/_product-links';
+@import 'partials/_icons';
+
+/*BOOTSTRAP STYLE OVERRIDES*/
+.container-fluid{
+  max-width: $maxWidth;
+  width: 100%;
+  padding: 0;
+}
+.container-fluid .row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+  padding-left: $gutterWidth;
+  padding-right: $gutterWidth;
+  box-sizing: border-box;
+}
+
+//GENERAL STYLES
+body{
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: $bodyFont;
+  color: $bodyFontColor;
+}
+body.scroll{
+  overflow:hidden;
+}
+h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+  font-family: $headerFont;
+  font-weight: normal;
+  color: $headerFontColor;
+  &.pink{
+    color: $pink;
+  }
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  /* according to style guide
+  font-size:3.429em; PSD these are 48*/
+  font-size:2.714em; /* style guide 38 */
+  margin-bottom:40px;
+  text-align:center;
+  color:$bodyFontColor;
+}
+h3{
+  font-size: 2.143em;
+}
+h4{
+  font-size: 1.33333em;
+}
+h5{
+  font-size: 1.16667em;
+}
+sup{
+  font-size:.5em;
+}
+a, a:hover{
+  text-decoration: none;
+  color: $bodyLinkColor;
+}
+a:hover{
+  color: $bodyLinkOnColor;
+}
+.black{
+  color: $bodyFontColor;
+}
+.darkbg{
+  //background: $darkBG;
+  color: white;
+}
+
+//utilities
+.center{
+  text-align:center;
+}
+hr.white{
+  height: 1px solid #FFF;
+  margin: 35px 0;
+  border: none;
+}
+.visible-touch{
+  display:none !important;
+}
+.hidden-touch{
+  display:block !important;
+}
+
+.touch {
+  .visible-touch{
+    display:block !important;
+  }
+  .hidden-touch{
+    display:none !important;
+  }
+}
+
+.content-padding{
+  padding:50px 0;
+}
+
+//TABLET GENERAL STYLES HERE
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+
+}
+
+//MOBILE GENERAL STYLES HERE
+@media (max-width: 767px) {
+  body{
+    font-size: 8px;
+  }
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+  .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+  .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+  .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+  .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+  .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+  .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+  .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+  .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+  .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+  .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+  .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .content-padding{
+    padding:25px 0;
+  }
+  
+}
+
+//SMALL MOBILE GENERAL STYLES HERE (MAY NOT NEED OR MAY ADJUST MAX-WIDTH)
+@media (max-width: 480px) {
+
+}

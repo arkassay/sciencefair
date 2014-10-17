@@ -1,0 +1,286 @@
+.module{
+  position:relative;
+  height: 400px;
+  margin-bottom: 40px;
+  .row{
+    height: 100%;
+  }
+
+  .table{
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .vertical-wrap{
+    display:table-cell;
+    width: 100%;
+    vertical-align:middle;
+  }
+  h3{
+    font-size: 2em;
+  }
+  h3.big{
+    font-size: 3em;
+  }
+  h3.black{
+    color: #000;
+  }
+  p.small{
+    font-size: 1em;
+  }
+  a, a:hover{
+    p{
+      color: #4d4f4f;
+    }
+  }
+  .col-xs-5{
+    float:none;
+  }
+  .underline{
+    border-bottom: 1px solid #FFF;
+    padding: 0 0 35px 0;
+  }
+  .uppercase{
+    text-transform: uppercase;
+  }
+
+  .pos{
+    position:absolute;
+  }
+  .pos.bottom{
+    bottom: 15%;
+  }
+  .pos.left{
+    left: 10%;
+  }
+  .vert{
+    height: 100%;
+  }
+  &.col-xs-12{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.module.darkbg{
+  h1, h2, h3, h4, h5, p, a, a:hover{
+    color: #FFF;
+  }
+  a, a:hover{
+    p{
+      color: #FFF;
+    }
+  }
+}
+.darkbg{
+  blockquote, {
+    color: #FFF;
+  }
+}
+.module-separater {
+  display:block;
+  height: 1px;
+  background: #c1c1c1;
+  margin-bottom: 40px;
+}
+//1 column with background image
+.bgimage{
+  background-position: center top;
+  background-repeat:no-repeat;
+  background-size: cover;
+  //height: 100%;
+}
+.module{
+  .bgimage{
+    border-radius: 0 0 10px 10px;
+  }
+  .bgimage.one-corner{
+    border-radius: 0 0 10px 0;
+  }
+}
+.col1-halfbg.example2{
+  background: #FFF;
+
+  //JUST USING THESE BG STYLES FOR STATIC PROTOTYPE -- WILL HAVE TO RECONFIGURE FOR AUTHORING IN CQ
+  .col-sm-6.bg{
+      background-image: url('../images/category-template/desktop/col2-bg-fullwidth4.jpg');
+      background-position: right;
+      background-size: cover;
+      background-color: #FFF
+  }
+}
+
+
+//2 column separate modules
+.module.left, .module.right{
+  padding: 0;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 50%;
+  float:left;
+  &.gutter{
+    width: 49.21875%;
+  }
+  .col-xs-12{
+    padding-left: 3.125%;
+    padding-right: 3.125%;
+  }
+  .content{
+
+  }
+  .content.half{
+    padding-top: 220px;
+  }
+  .content.pos{
+    padding: 0;
+  }
+  .halfheight-bg{
+    height: 200px;
+    background-size: cover;
+    width: 100%;
+    position:relative;
+  }
+
+}
+.module.left.gutter{
+  margin-right: .78125%;
+}
+.module.right.gutter{
+  margin-left: .78125%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .module{
+    h3.big{
+      font-size: 3em;
+    }
+    blockquote{
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .touch,
+  .no-touch{
+    .hero-wrapper {
+      .headline{
+        padding-top: 120px;
+        padding-bottom: 100px;
+        h1{
+          font-size: 1.5em;
+          margin-bottom: 25px;
+        }
+      }
+    }
+    .module{
+      .bgimage.one-corner{
+        border-radius: 0 0 10px 10px;
+      }
+    }
+    .module{
+      position:relative;
+      height:auto;
+      overflow:hidden;
+      padding: 0;
+      margin-right:8px;
+      margin-left:8px;
+
+      .vertical-wrap{
+        display:block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-height: 40px;
+      }
+      h3.big{
+        font-size: 3em;
+      }
+      blockquote{
+        margin: 0;
+      }
+
+      .table{
+        padding: 0;
+      }
+      .vertical-wrap{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      &.darkbg{
+        /*min-height: 400px;*/
+        .table{
+          /*min-height:400px;*/
+          display:block;
+        }
+      }
+      padding-bottom:0;
+      .vert{
+        &.left{
+          padding-top:30px;
+          padding-bottom:30px;
+          .table{
+            height:auto;
+          }
+      }
+      }
+      &.right,
+      &.left{
+        float:none;
+        display:block;
+        width:auto;
+        margin-right:8px;
+        margin-left:8px;
+        .halfheight-bg{
+          min-height: 100px;
+          height: auto;
+        }
+        .content{
+          padding-top:25px;
+          padding-bottom: 25px;
+          display:inline-block;
+          width: 90%;
+          h3{
+            margin-bottom:15px;
+          }
+          p{
+            margin:0;
+          }
+        }
+      }
+      .table{
+        width: 100%;
+      }
+      .white{
+        color:#FFF;
+      }
+      h3,
+      h3.big{
+        /*font-size:3em;*/
+      }
+      p.small{
+        /*font-size:1.5em;*/
+      }
+      .vert{
+        height: auto;
+      }
+      .pos{
+        position:static;
+      }
+      .pos.bottom.left{
+        position:static;
+        padding-top: 90px;
+      }
+      .vert{
+        padding-top:30px;
+        padding-bottom:30px;
+      }
+      blockquote{
+        /*font-size:3.750em;*/
+      }
+      .quote-cite{
+        /*font-size:0.800em;*/
+      }
+    }
+
+
+  }
+}

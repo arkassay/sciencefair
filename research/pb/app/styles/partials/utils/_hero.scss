@@ -1,0 +1,160 @@
+//generic module styles
+$catHeader: #12b1c9;
+$catHeaderLight: #FFF;
+$catHeaderDark: #888;
+$catLink: #12b1c9;
+
+$grid-gutter-width:1.5625%;
+
+.main-content{
+  .hero-wrapper{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position:relative;
+    background-size: auto;
+    .headline{
+      text-align:center;
+      padding-top: 150px;
+      padding-bottom: 150px;
+      .product-cat-icn{
+        display:block;
+        margin: 0 auto 10px auto;
+      }
+      h1,h2{
+        color: #4d4f4f;
+      }
+      h2{
+        margin-top: 45px;
+        font-size:1.286em;
+      }
+    }
+  }
+}
+
+.hero-wrapper.location-intelligence{
+  background-image: url('../images/category-template/desktop/img-bg-cat-wavesr-1x.jpg');
+  .product-cat-icn{
+    width: 30px;
+    height: 44px;
+    background-image: url('../images/sprite/icn-intel.png');
+    background-repeat: no-repeat;
+  }
+}
+.hero-wrapper.cim{
+  background-image: url('../images/category-template/desktop/img-bg-cat-wavesr-1x.jpg');
+  .product-cat-icn{
+    width: 30px;
+    height: 44px;
+    background-image: url('../images/sprite/icn-intel.png');
+    background-repeat: no-repeat;
+  }
+}
+.hero-wrapper.customer-engagement{
+  background-image: url('../images/category-template/desktop/img-bg-cat-wavesr-1x.jpg');
+  .product-cat-icn{
+    width: 30px;
+    height: 44px;
+    background-image: url('../images/sprite/icn-intel.png');
+    background-repeat: no-repeat;
+  }
+}
+.hero-wrapper.shipping-mailing{
+  background-image: url('../images/category-template/desktop/img-bg-cat-wavesr-1x.jpg');
+  .product-cat-icn{
+    width: 30px;
+    height: 44px;
+    background-image: url('../images/sprite/icn-intel.png');
+    background-repeat: no-repeat;
+  }
+}
+.hero-wrapper.global-ecommerce{
+  background-image: url('../images/category-template/desktop/img-bg-cat-wavesr-1x.jpg');
+  .product-cat-icn{
+    width: 30px;
+    height: 44px;
+    background-image: url('../images/sprite/icn-intel.png');
+    background-repeat: no-repeat;
+  }
+}
+
+.long-form-content{
+  .main-content{
+    .hero-wrapper{
+      text-align:center;
+      background:none;
+      img{
+        width:100%;
+      }
+      .headline{
+        padding:50px 0 30px;
+        h1{
+          font-size:3.429em;
+        }
+        h2{
+          margin-top:30px;
+        }
+      }
+    }
+  }
+
+}
+
+.long-form-content{
+  &.barbican{
+    .main-content{
+      .hero-wrapper{
+        background-image: url('../images/long-form-content/hero/barbican.jpg');
+      }
+    }
+  }
+  &.schwan{
+    .main-content{
+      .hero-wrapper{
+        background-image: url('../images/long-form-content/hero/schwan.jpg');
+      }
+    }
+  }
+  &.nationwide{
+    .main-content{
+      .hero-wrapper{
+        background-image: url('../images/long-form-content/hero/nationwide.jpg');
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 767px){
+
+  .long-form-content{
+    .main-content{
+      .hero-wrapper{
+        background-image: url('../images/long-form-content/hero/content-peugeot-citroen-m.jpg');
+      }
+    }
+
+    &.barbican{
+      .main-content{
+        .hero-wrapper{
+          background-image: url('../images/long-form-content/hero/barbican-m.jpg');
+        }
+      }
+    }
+    &.schwan{
+      .main-content{
+        .hero-wrapper{
+          background-image: url('../images/long-form-content/hero/schwan-m.jpg');
+        }
+      }
+    }
+    &.nationwide{
+      .main-content{
+        .hero-wrapper{
+          background-image: url('../images/long-form-content/hero/nationwide-m.jpg');
+        }
+      }
+    }
+  }
+
+}

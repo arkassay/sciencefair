@@ -1,0 +1,19 @@
+article#frame-1{
+  .container-fluid{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  article#frame-1{
+    .container-fluid{
+      .story-title{
+        padding-top: 50%;
+      }
+
+    }
+
+  }
+}

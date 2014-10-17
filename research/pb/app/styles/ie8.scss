@@ -1,0 +1,24 @@
+.no-backgroundsize{
+  .main-content .hero-wrapper,
+  .col1-halfbg.example1 .col-sm-6.bg,
+  .col1-halfbg.example2 .col-sm-6.bg,
+  .col1-fullbg,
+  .col2,
+  .col2 .halfheight-bg{
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+}
+
+
+/*
+no-touch
+no-rgba
+no-backgroundsize
+no-cssanimations
+no-cssgradients
+no-csstransitions
+cookies
+no-overflowscrolling
+no-ie8compat
+*/

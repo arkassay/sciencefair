@@ -1,0 +1,54 @@
+@import 'partials/category/_category-modules.scss';
+
+.main-content{
+  .page-container{
+    position:relative;
+  }
+  .page-content{
+    width: 100%;
+  }
+  .category-content{
+    background: #f5f5f5;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    .tabs-placehold{
+      display:none;
+      &.fixed{
+        display:block;
+        position:relative;
+      }
+    }
+    .tab-pane-content{
+      margin: 0 auto;
+      .row{
+        position:relative;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  body{
+    font-size: 10px;
+
+  }
+  .container-fluid{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px){
+  body{
+    font-size: 8px;
+  }
+  .main-content{
+
+    .category-content{
+
+        .results{
+          margin:20px 0;
+        }
+
+    }
+  }
+}

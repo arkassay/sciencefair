@@ -1,0 +1,35 @@
+.blue-bg-highlight-section
+{
+  padding:50px 0;
+  background:$blueHighlight;
+
+  h2,
+  h3,
+  h3 a,
+  p{
+    color:#FFF;
+  }
+
+  .content-bucket{
+    margin-top:25px;
+    margin-bottom:50px;
+    + .content-bucket{
+      margin-top:0;
+    }
+    h3, p {
+      margin:0;
+    }
+    p{
+      margin-bottom:1em;
+    }
+    h3{
+      font-size:1.714em;
+      a, a:hover{
+      font-size:1em;
+      }
+    }
+    p{
+      font-size:1.143em;
+    }
+  }
+}

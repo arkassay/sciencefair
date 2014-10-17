@@ -1,0 +1,133 @@
+@import 'vendors/bootstrap/_bootstrap-custom';
+@import 'vendors/bootstrap/_modals';
+@import 'vendors/bootstrap/_carousel';
+@import 'vendors/snappish/jquery.snappish';
+@import 'vendors/_pb-custom-flexslider';
+@import 'partials/_custom-variables';
+@import 'partials/_icons';
+@import 'partials/content-components/_buttons';
+@import 'partials/content-components/_more_on_category';
+@import 'partials/_blue-bg-highlight-section.scss';
+
+
+.product-details{
+
+  .main-content{
+      padding-top:90px; // to account for header
+  }
+
+  .tags{
+      margin-bottom:40px;
+      background:$grayBg;
+      ul{
+        margin:0;
+        padding-left:0;
+      li{
+          display:inline-block;
+          padding:20px;
+          list-style:none;
+          + li{
+
+            border-left:1px solid #FFF;
+          }
+        }
+      }
+  }
+
+  .product-hero{
+
+    h1,h2{
+
+      color:$bodyFontColor;
+    }
+    h2{
+    font-size:1.286em;
+    }
+    h1{
+        font-size:3em;
+    }
+    h3.learn-more{
+      font-size:1em;
+    }
+
+    .purchase-option-details{
+      ul{
+        padding-left:17px;
+      }
+    }
+    .related-links{
+      padding-top:20px;
+      border-top:1px solid #CCC;
+        .icn-btn{
+          margin-bottom:15px;
+        }
+    }
+
+    .disclaimer{
+      font-style: italic;
+    }
+
+    .learn-more .text{
+      display:inline-block;
+      padding:10px 0;
+      vertical-align:top;
+    }
+  }
+
+  .tabs-nav{
+    padding-left:0;
+    list-style:none;
+    border-bottom:1px solid #CCC;
+    li{
+      display:inline-block;
+      &.active{
+        color:$bodyFontColor;
+        background-color:$blue-lighter;
+      }
+      span{
+        display:inline-block;
+        padding:15px 20px;
+        margin-bottom:10px;
+        font-weight:bold;
+        background-color:#FFF;
+      }
+    }
+  }
+
+  .tab{
+    padding-bottom:10px;
+    a{
+      font-weight:bold;
+    }
+    h3{
+      margin:40px 0 15px;
+      font-size:1.143em;
+      font-weight:bold;
+      color:$bodyFontColor;
+    }
+    ul{
+      padding-left:17px;
+      li{
+        margin-bottom:15px;
+      }
+    }
+  }
+
+  .cta-container{
+    text-align:center;
+    padding-top:40px;
+    border-top:1px solid #CCC;
+  }
+
+  .in-content-gallery{
+    .image{
+      margin-bottom:30px;
+      img{
+        width:100%;
+      }
+    }
+
+  }
+
+
+}

@@ -1,0 +1,79 @@
+@import '../partials/custom-variables';
+
+footer{
+  background: rgba(255,255,255,.8);
+  display: inline-block;
+  width: 100%;
+  .logo a{
+    background-image: url('../images/pitneybowes-logo-dark.png');
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    display:block;
+    width:100%;
+    max-width:175px;
+    min-height:50px;
+  }
+  .container-fluid{
+    padding: 50px 0 90px 0;
+    text-align:left;
+  }
+  h2,
+  a, a:hover,
+  .bottom-text p{
+    font-size: 0.857em;
+  }
+
+  h2{
+    margin-bottom:15px;
+    color:$bodyFontColor;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+
+    li{
+      list-style-type: none;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.long-form-content{
+  footer{
+    background:#f1f1f1;
+  }
+}
+
+@media screen and (max-width: 767px){
+  footer{
+    position:relative;
+    display:inline-block;
+    padding-top:20px;
+
+    .container-fluid{
+      padding: 0 0 0 0;
+    }
+    h2{
+      margin-top: 40px;
+      margin-bottom:0;
+    }
+    a{
+      font-size:0.813em;
+    }
+    ul{
+      margin: 15px 0 0 0;
+      li{
+        padding-bottom: 8px;
+        &:last-child{
+          padding-bottom: 0;
+        }
+      }
+
+    }
+    .bottom-text{
+      margin-top: 10px;
+    }
+  }
+}

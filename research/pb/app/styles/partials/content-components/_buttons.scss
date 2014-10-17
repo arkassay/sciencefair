@@ -1,0 +1,49 @@
+@import '../../vendors/bootstrap/mixins/_border-radius';
+@import '../_custom-variables';
+
+.rounded-button{
+    display:inline-block;
+    padding:10px 25px;
+    margin-bottom:20px;
+    color:$bodyLinkOnColor;
+    text-transform:uppercase;
+    @include border-top-radius(20px);
+    @include border-bottom-radius(20px);
+    background:#FFF;
+    + .rounded-button{
+      margin-left:20px;
+    }
+
+    &.learn-more,
+    &.learn-more:hover{
+      margin-top:20px;
+      text-transform:none;
+    }
+    &.primary,
+    &.secondary{
+      color:#FFF;
+    }
+    &.primary{
+      background:$pink;
+    }
+    &.secondary{
+      background:$blue-darker;
+    }
+}
+
+.icn-btn{
+  display:block;
+  .icn{
+    margin-left:0;
+  }
+  .text{
+    display:inline-block;
+    padding:10px 0;
+    vertical-align:top;
+    max-width:80%
+  }
+}
+
+/*.learn-more{
+  font-size:1.143em;
+}*/

@@ -1,0 +1,10 @@
+article#frame-3{
+  @include gradient-vertical-three-colors(#008fd5,#0061af,60%, #5b55a4);
+  display:none;
+  .frame-3-gradient {
+    background: url('../images/brandstory/frame3/bg-map.png') no-repeat center;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+
+.tabs-container{
+  background: rgba(245,245,245,.8);
+  border-bottom: 1px solid #c1c1c1;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  .tabs{
+    position:relative;
+    &.fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      width: 100%;
+      -webkit-transition-property: top;
+      -webkit-transition-duration: 0.5s;
+      background: rgba(245,245,245,1);
+      border-bottom: 1px solid #c1c1c1;
+    }
+    &.pinned{
+      top: 90px;
+    }
+    .tab{
+      text-align:center;
+      display:inline-block;
+      padding: 15px 20px;
+      text-transform:uppercase;
+      color: #0061af;
+      box-sizing: border-box;
+      font-size: 1.286em;
+      &.active{
+        color: #4d4f4f;
+        border-bottom: 5px solid #00adee;
+      }
+    }
+  }
+}

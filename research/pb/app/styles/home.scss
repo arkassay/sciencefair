@@ -1,0 +1,527 @@
+$homeLinkColor: #FFF;
+$homeLinkOnColor: #FFF;
+$homeFontColor: #FFF;
+
+@import 'vendors/bootstrap/mixins/_gradients';
+@import 'partials/content-components/_buttons';
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y:scroll;
+}
+
+#home-area{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  overflow:visible;
+  background-position: bottom center;
+  background-size: 100% auto;
+  @include gradient-directional(#00a7e9,#9b2993);
+
+  article{
+    position:absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 107%;
+    text-align: center;
+    background-size: 100% 100%;
+    background-position: center top;
+    background-repeat:no-repeat;
+
+      h1, h2, h3, h4{
+        color: #FFF;
+        padding: 0;
+        margin: 0;
+      }
+
+      &.welcome{
+        -webkit-transition: background-color 1s ease;
+        -moz-transition: background-color 1s ease;
+        -o-transition: background-color 1s ease;
+        -ms-transition: background-color 1s ease;
+        transition: background-color 1s ease;
+      }
+      &.category-1,
+      &.category-2,
+      &.category-3,
+      &.category-4,
+      &.category-5{
+        display:none;
+        /*.headline{
+          display:none;
+        }*/
+      }
+      // article background styles
+      &.default{
+        background-image: url('../images/home/bg-brand-story.png');
+      }
+      &.category-1{
+        background-image: url('../images/home/bg-brand-story.png');
+        //background-image: url('../images/home/bg-location-intelligence-test.png');
+      }
+      &.category-2{
+        background-image: url('../images/home/bg-location-intelligence.png');
+      }
+      &.category-3{
+        background-image: url('../images/home/bg-brand-story.png');
+        //background-image: url('../images/home/bg-location-intelligence-test.png');
+      }
+      &.category-4{
+        background-image: url('../images/home/bg-brand-story.png');
+        //background-image: url('../images/home/bg-location-intelligence.png');
+      }
+      &.category-5{
+        background-image: url('../images/home/bg-brand-story.png');
+        //background-image: url('../images/home/bg-location-intelligence-test.png');
+      }
+
+      //hover transition state
+      /*a{
+        filter: alpha(opacity=50);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        -webkit-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        -o-transition: opacity .5s ease-in-out;
+        -ms-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
+      }
+      a:hover{
+        zoom: 1;
+        filter: alpha(opacity=100);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        opacity: 1;
+        color: $homeLinkOnColor;
+      }*/
+      .container-fluid{
+        position:relative;
+        height: 100%;
+
+        .row{
+          position:absolute;
+          height: 100%;
+          min-width:100%;
+          text-align:center;
+          .headline{
+            position:relative;
+            top: 25%;
+          }
+          &.links{
+            height: auto;
+          }
+        }
+
+      }
+      h1, h2{
+        display:block;
+        color: $homeFontColor;
+        font-weight: normal;
+        margin:0 0 40px;
+        padding: 0;
+        font-size: 4.286em;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+      }
+
+      p{
+        color: $homeFontColor;
+        font-weight:lighter;
+        font-size: 1.286em;
+        margin-top:0;
+        margin-bottom:25px;
+      }
+      a,a:hover{
+        display:inline-block;
+        padding:10px 25px;
+        text-decoration: none;
+        font-size:1em;
+      }
+
+      .links{
+        position:absolute;
+        top: 70%;
+        height: auto;
+      }
+      .cat{
+        position:relative;
+        margin-top: 0;
+        /*min-height: 80px;
+        border-right: 1px solid rgba(255,255,255,.3);*/
+        padding: 0;
+        &.inactive a {
+          filter: alpha(opacity=35);
+          -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+          opacity:.35;
+        }
+        a, a:hover{
+          z-index:5;
+          color: $homeLinkColor;
+          filter: alpha(opacity=100);
+          -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+          opacity: 1;
+          font-size: 0.857em;
+          text-decoration: none;
+          height: 100%;
+          min-height:40px;
+          position:relative;
+          padding: 110px 0 70px;
+          display:block;
+          width: 100%;
+          background: url('../images/home/icn-home-ecomm-1x.png') no-repeat center 20px;
+        }
+        a:hover{
+          background-image: url('../images/home/icn-home-ecomm-on-1x.png');
+        }
+        .category-1{
+            background-image: url('../images/home/icn-home-infomanagmnt-1x.png');
+            &:hover{
+              background-image: url('../images/home/icn-home-infomanagmnt-on-1x.png');
+            }
+        }
+        .category-2{
+            background-image: url('../images/home/icn-home-locationintel-1x.png');
+            &:hover{
+              background-image: url('../images/home/icn-home-locationintel-on-1x.png');
+            }
+        }
+        .category-3{
+            background-image: url('../images/home/icn-home-engagement-1x.png');
+            &:hover{
+              background-image: url('../images/home/icn-home-engagement-on-1x.png');
+            }
+        }
+        .category-4{
+            background-image: url('../images/home/icn-home-shipping-1x.png');
+            &:hover{
+              background-image: url('../images/home/icn-home-shipping-on-1x.png');
+            }
+        }
+        .category-5{
+            background-image: url('../images/home/icn-home-ecomm-1x.png');
+            &:hover{
+              background-image: url('../images/home/icn-home-ecomm-on-1x.png');
+            }
+        }
+        .inactive{
+          .category-1{
+              background-image: url('../images/home/icn-home-infomanagmnt-off-1x.png');
+          }
+          .category-2{
+              background-image: url('../images/home/icn-home-locationintel-off-1x.png');
+          }
+          .category-3{
+              background-image: url('../images/home/icn-home-engagement-off-1x.png');
+          }
+          .category-4{
+              background-image: url('../images/home/icn-home-shipping-off-1x.png');
+          }
+          .category-5{
+              background-image: url('../images/home/icn-home-ecomm-off-1x.png');
+          }
+        }
+      }
+      .cat.last{
+        border-right: none;
+      }
+      .down-arrow{
+        display:none;
+      }
+    }
+}
+
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+footer {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1024px){
+  .touch{
+    .visible-xs.group{
+      display: block !important;
+    }
+    .hidden-xs.page-title, .hidden-xs.links{
+      display: none !important;
+    }
+      body{
+        /*background: -webkit-linear-gradient(right top, rgba(43,71,92,1),rgba(72,146,131,1));
+        background: -moz-linear-gradient(bottom left, rgba(43,71,92,1),rgba(72,146,131,1));
+        background: linear-gradient(to bottom left, rgba(43,71,92,1),rgba(72,146,131,1));*/
+        height:auto;
+        @include gradient-vertical(#00a7e9, #9b2993);
+      }
+      footer {
+        position: relative;
+        top: auto;
+        width: 100%;
+        padding-top:20px;
+      }
+
+      #home-area{
+        position:static;
+        height: auto;
+        width: 100%;
+        background-image: url('../images/home/mobile/top-bg-detail.png');
+        background-size:100% auto;
+        background-position:top center;
+        //top-bg-detail.png
+        article{
+          width:90%;
+          margin-left:5%;
+          margin-right:5%;
+          background: none;
+          position:static;
+          height: auto;
+          padding: 50px 0;
+
+          .row{
+            position:static;
+            .headline{
+              position:static;
+            }
+          }
+          h1, h2{
+            font-size: 3em;
+            font-weight: normal;
+            margin-bottom:15px;
+            a,a:hover{
+              color: $homeLinkColor;
+            }
+          }
+          p{
+            color: $homeFontColor;
+            font-size:1.5em;
+          }
+
+          h2.hidden-touch{
+            display:none !important;
+          }
+          h2.visible-touch{
+            display:block !important;
+            // font-size: 3em; shouldn't need this
+            a, a:hover{
+              color: white;
+              padding-top:80px;
+              background-size:auto;
+            }
+          }
+
+          h1, h2{
+            font-weight: normal;
+            margin-bottom:15px;
+          }
+          p{
+            color: $homeFontColor;
+            font-size:1.6em;
+          }
+          + article{
+              border-top: 1px solid rgba(255,255,255,.6);
+          }
+
+
+          &.default,
+          &.category-1,
+          &.category-2,
+          &.category-3,
+          &.category-4,
+          &.category-5{
+            display:block;
+            background-image:none;
+
+
+          &.default,
+          &.welcome{
+            position:static;
+            width: auto;
+            height: auto;
+            padding: 50px 0;
+            display:block;
+            background:none;
+            border-top:none;
+            .container-fluid{
+              .row{
+                position:relative;
+                .headline{
+                  position:static;
+                }
+              }
+            }
+          }
+          &.welcome#welcome{
+            background: none;
+          }
+
+          &.category-1 h2.visible-touch a{
+              background: url('../images/home/icn-home-infomanagmnt-1x.png') no-repeat top center;
+          }
+          &.category-2 h2.visible-touch a{
+              background: url('../images/home/icn-home-locationintel-1x.png') no-repeat top center;
+          }
+          &.category-3 h2.visible-touch a{
+              background: url('../images/home/icn-home-engagement-1x.png') no-repeat top center;
+          }
+          &.category-4 h2.visible-touch a{
+              background: url('../images/home/icn-home-shipping-1x.png') no-repeat top center;
+          }
+          &.category-5 h2.visible-touch a{
+              background: url('../images/home/icn-home-ecomm-1x.png') no-repeat top center;
+          }
+
+          }
+        }
+
+        article.welcome{
+          .catbg{
+            display:none;
+          }
+          position:static;
+          width: auto;
+          height: auto;
+          padding: 50px 0;
+          display:block;
+          .container-fluid{
+            .row{
+              position:static;
+            }
+          }
+        }
+        article.default{
+          height: 400px;
+        }
+
+        article.category-1{
+          min-height:228px;
+
+        }
+        article.category-2{
+          min-height:198px;
+
+        }
+        article.category-3{
+          min-height:198px;
+
+        }
+        article.category-4{
+          min-height:198px;
+
+        }
+        article.category-5{
+          min-height:233px;
+
+        }
+      }
+  }
+}
+
+
+/*@media screen and (max-width: 767px){
+  .no-touch,
+  .touch{
+      #home-area{
+        position:static;
+        height: auto;
+        width: 100%;
+        article{
+          width:90%;
+          margin-left:5%;
+          margin-right:5%;
+          background: none;
+          position:static;
+          height: auto;
+          padding: 50px 0;
+
+          //.container-fluid .row {
+            h2.hidden-touch{
+              display:none !important;
+            }
+            h2.visible-touch{
+              display:block !important;
+              // font-size: 3em; shouldn't need this
+              a, a:hover{
+                color: white;
+                padding-top:80px;
+                background-size:auto;
+              }
+            }
+          //}
+          h1, h2{
+            font-weight: normal;
+            margin-bottom:15px;
+          }
+          p{
+            color: $homeFontColor;
+            font-size:1.6em;
+          }
+          + article{
+              border-top: 1px solid rgba(255,255,255,.6);
+          }
+
+          // article background styles
+          &.default,
+          &.category-1,
+          &.category-2,
+          &.category-3,
+          &.category-4,
+          &.category-5{
+            display:block;
+            background-image:none;
+
+
+          &.default,
+          &.welcome{
+            position:static;
+            width: auto;
+            height: auto;
+            padding: 50px 0;
+            display:block;
+            background:none;
+            border-top:none;
+            .container-fluid{
+              .row{
+                position:relative;
+                .headline{
+                  position:static;
+                }
+              }
+            }
+          }
+          &.welcome#welcome{
+            background: none;
+          }
+
+          &.category-1 h2.visible-touch a{
+              background: url('../images/home/icn-home-infomanagmnt-1x.png') no-repeat top center;
+          }
+          &.category-2 h2.visible-touch a{
+              background: url('../images/home/icn-home-locationintel-1x.png') no-repeat top center;
+          }
+          &.category-3 h2.visible-touch a{
+              background: url('../images/home/icn-home-engagement-1x.png') no-repeat top center;
+          }
+          &.category-4 h2.visible-touch a{
+              background: url('../images/home/icn-home-shipping-1x.png') no-repeat top center;
+          }
+          &.category-5 h2.visible-touch a{
+              background: url('../images/home/icn-home-ecomm-1x.png') no-repeat top center;
+          }
+
+          }
+
+        } // article
+
+      }
+
+  }
+}*/

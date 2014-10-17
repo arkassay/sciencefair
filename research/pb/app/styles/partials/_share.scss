@@ -1,0 +1,272 @@
+/*@import '_custom-variables';
+// TODO this should be in the import above but it's not working
+$bodyLinkOnColor: #0061af;*/
+
+.social-container{
+  list-style:none;
+  text-align:center;
+  text-transform:uppercase;
+  color:$bodyLinkOnColor;
+
+  .share-copy{
+    text-align:center;
+    font-size:1.333em;
+    line-height:1em;
+    margin-top:0;
+    margin-bottom:.0;
+    +ul.social{
+      text-align:center;
+    }
+  }
+  li{
+    display:inline-block;
+    padding:10px 0;
+
+    a{
+      display:inline-block;
+      width:100%;
+      height:100%;
+      background-repeat:no-repeat;
+    }
+
+    + li {
+      margin-left:5px;
+    }
+    &.border-left{
+      border-left:1px solid $bodyLinkOnColorWithOpacity;
+      padding-left:10px;
+      margin-left:10px;
+    }
+    &.icn-fb,
+    &.icn-tw,
+    &.icn-yt,
+    &.icn-in,
+    &.icn-email,
+    &.icn-dl{
+      width: 26px;
+      height: 26px;
+      display:inline-block;
+      background-repeat: no-repeat;
+    }
+
+    &.icn-fb{
+      a {
+        background-image: url('../images/sprite/icn-facebook-blue-1x.png');
+      }
+    }
+    &.icn-tw{
+      a {
+        background-image: url('../images/sprite/icn-twitter-blue-1x.png');
+      }
+    }
+    &.icn-in{
+      a {
+        background-image: url('../images/sprite/icn-linkedin-blue-1x.png');
+      }
+    }
+    &.icn-yt{
+      a {
+        background-image: url('../images/sprite/icn-youtube-blue-1x.png');
+      }
+    }
+    &.icn-email{
+      a {
+        background-image: url('../images/sprite/icn-email-blue-1x.png');
+      }
+    }
+    &.icn-dl{
+      width:56px;
+      a {
+        background-image: url('../images/sprite/icn-pdf-blue-1x.png');
+      }
+    }
+  }
+
+  &.light{
+    li{
+      &.border-left{
+        border-color:#FFF;
+      }
+      &.icn-fb{
+        a {
+          background-image: url('../images/sprite/icn-facebook-wht-1x.png');
+        }
+      }
+      &.icn-tw{
+        a {
+          background-image: url('../images/sprite/icn-twitter-wht-1x.png');
+        }
+      }
+      &.icn-in{
+        a {
+          background-image: url('../images/sprite/icn-linkedin-wht-1x.png');
+        }
+      }
+      &.icn-email{
+        a {
+          background-image: url('../images/sprite/icn-email-wht-1x.png');
+        }
+      }
+      &.icn-dl{
+        width:56px;
+        a {
+          background-image: url('../images/sprite/icn-pdf-wht-1x.png');
+        }
+      }
+    }
+  }
+}
+
+
+footer .social-container{
+  text-align:left;
+  margin-top: 0;
+  li{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  footer{
+    .social-container{
+      li{
+        &.icn-fb,
+        &.icn-tw,
+        &.icn-yt,
+        &.icn-in,
+        &.icn-email,
+        &.icn-dl{
+          width: 13px;
+          height: 13px;
+          a{
+            width:100%;
+            height:100%;
+            background-size:100% 100%;
+          }
+          + li {
+            margin-left:5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//MOBILE GENERAL STYLES HERE
+@media (max-width: 767px) {
+  .social-container{
+    list-style:none;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:35px;
+    color:#000;
+
+    .share-copy{
+      text-align:center;
+      font-size:2em;
+      line-height:1em;
+      margin-bottom:.5em;
+      +ul{
+        text-align:center;
+      }
+    }
+    li{
+      display:inline-block;
+      padding:10px 0;
+
+      a{
+        display:inline-block;
+        width:26px;
+        height:26px;
+        background-repeat:no-repeat;
+      }
+
+      + li {
+        margin-left:5px;
+      }
+      &.border-left{
+        border-left:1px solid #000;
+        padding-left:10px;
+        margin-left:10px;
+      }
+      &.icn-fb a,
+      &.icn-tw a,
+      &.icn-yt a,
+      &.icn-in a,
+      &.icn-email a{
+        background-size: 18px 18px;
+        width: 18px;
+        height: 18px;
+      }
+      &.icn-dl a{
+        width: 16px;
+        height: 16px;
+        top: 2px;
+        background-size: 16px 16px;
+      }
+      &.icn-fb{
+        a {
+          background-image: url('../images/sprite/icn-facebook-blue-1x.png');
+          //background-image: url('../images/sprite-mobile/icn-facebook-blue-1x.png');
+        }
+      }
+      &.icn-tw{
+        a {
+          background-image: url('../images/sprite/icn-twitter-blue-1x.png');
+          //background-image: url('../images/sprite-mobile/icn-twitter-blue-1x.png');
+        }
+      }
+      &.icn-in{
+        a {
+          background-image: url('../images/sprite/icn-linkedin-blue-1x.png');
+          //background-image: url('../images/sprite-mobile/icn-linkedin-blue-1x.png');
+        }
+      }
+      &.icn-email{
+        a {
+          background-image: url('../images/sprite/icn-email-blue-1x.png');
+        }
+      }
+      &.icn-dl{
+        a {
+          background-image: url('../images/sprite/icn-pdf-blue-1x.png');
+        }
+      }
+    }
+
+    &.light{
+      li{
+        &.icn-fb{
+          a {
+            background-image: url('../images/sprite/icon-facebook-light.png');
+          }
+        }
+        &.icn-tw{
+          a {
+            background-image: url('../images/sprite/icon-twitter-light.png');
+          }
+        }
+        &.icn-in{
+          a {
+            background-image: url('../images/sprite/icon-linkedin-light.png');
+          }
+        }
+        &.icn-email{
+          a {
+            background-image: url('../images/sprite/icon-email-light.png');
+          }
+        }
+        &.icn-dl{
+          a {
+            background-image: url('../images/sprite/icon-download-light.png');
+          }
+        }
+      }
+    }
+  }
+  footer .social-container ul{
+    //margin:0;
+    padding:0;
+  }
+}

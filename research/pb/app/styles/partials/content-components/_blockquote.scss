@@ -1,0 +1,36 @@
+@import '../custom-variables';
+
+blockquote{
+  font-size: 2.143em; /*30px*/
+  color: #0061af;
+  margin: 0;
+  padding: 0;
+  .quote-cite{
+    font-size: 0.400em; /*12px*/
+    width: 100%;
+    margin-top: 15px;
+    display:block;
+    font-style:normal;
+  }
+}
+
+//long form content block quote sized differently
+//quote-cite 14px
+//blockquote 30px
+
+.long-form-content{
+  blockquote{
+    margin-top:20px;
+    color:$blueHighlight;
+    text-align:center;
+    font-size:1.714em; /* 24px */
+    font-style:italic;
+    .quote-cite{
+      display:block;
+      color:$bodyFontColor;
+      font-size: 0.583em; /*14px*/
+      text-align:center;
+      margin:30px 0;
+    }
+  }
+}
